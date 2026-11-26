@@ -1,0 +1,59 @@
+# -- Secrets -------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.env
+
+# -- Python --------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# -- Node / npm ----------------------------------------------------------------
+node_modules/
+civiclens-ui/dist/
+civiclens-ui/dist-ssr/
+*.local
+
+# -- Large raw data files (re-downloadable source data) ------------------------
+data/raw/ichangemycity_complaints.csv
+data/raw/kaun_work_orders_all_wards.json
+data/raw/civicissue_issues_unfiltered.json
+
+# -- Large intermediate pipeline artefacts -------------------------------------
+data/processed/complaints_normalised.json
+data/processed/dedup_candidates.json
+data/processed/civic_cases.json
+data/processed/work_orders_normalised.json
+
+# -- OS / editor noise ---------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.suo
+*.njsproj
+*.sln
+*.sw?
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# -- Bob IDE internals ---------------------------------------------------------
+.bob/
+
+# -- Log files -----------------------------------------------------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# -- Misc ----------------------------------------------------------------------
+*.tmp
+*.bak
+dashboard/
+pipeline/__pycache__/

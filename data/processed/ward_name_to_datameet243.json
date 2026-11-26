@@ -1,0 +1,1146 @@
+{
+  "Kempegowda": {
+    "datameet243_no": 1,
+    "bbmp225_no": 1,
+    "overlap_confidence": 0.747,
+    "match_method": "fuzzy_name",
+    "matched_to": "Kempegowda Ward"
+  },
+  "Chowdeshwari": {
+    "datameet243_no": 43,
+    "bbmp225_no": 40,
+    "overlap_confidence": 0.625,
+    "match_method": "fuzzy_name",
+    "matched_to": "Chowdeshwari Nagar"
+  },
+  "Atturu": {
+    "datameet243_no": 4,
+    "bbmp225_no": 3,
+    "overlap_confidence": 0.607,
+    "match_method": "exact_name"
+  },
+  "Yelahanka Satellite Town": {
+    "datameet243_no": 5,
+    "bbmp225_no": 4,
+    "overlap_confidence": 0.779,
+    "match_method": "exact_name"
+  },
+  "Jakkuru": {
+    "datameet243_no": 8,
+    "bbmp225_no": 6,
+    "overlap_confidence": 0.682,
+    "match_method": "exact_name"
+  },
+  "Thanisandra": {
+    "datameet243_no": 8,
+    "bbmp225_no": 7,
+    "overlap_confidence": 0.681,
+    "match_method": "exact_name"
+  },
+  "Byatarayanapura": {
+    "datameet243_no": 11,
+    "bbmp225_no": 10,
+    "overlap_confidence": 0.921,
+    "match_method": "exact_name"
+  },
+  "Kodigehalli": {
+    "datameet243_no": 12,
+    "bbmp225_no": 11,
+    "overlap_confidence": 0.925,
+    "match_method": "exact_name"
+  },
+  "Vidyaranyapura": {
+    "datameet243_no": 14,
+    "bbmp225_no": 13,
+    "overlap_confidence": 0.953,
+    "match_method": "exact_name"
+  },
+  "Dodda Bommasandra": {
+    "datameet243_no": 13,
+    "bbmp225_no": 12,
+    "overlap_confidence": 0.96,
+    "match_method": "exact_name"
+  },
+  "Kuvempu Nagar": {
+    "datameet243_no": 15,
+    "bbmp225_no": 14,
+    "overlap_confidence": 0.995,
+    "match_method": "exact_name"
+  },
+  "Mallassandra": {
+    "datameet243_no": 17,
+    "bbmp225_no": 16,
+    "overlap_confidence": 0.632,
+    "match_method": "fuzzy_name",
+    "matched_to": "Mallasandra"
+  },
+  "Bagalakunte": {
+    "datameet243_no": 18,
+    "bbmp225_no": 18,
+    "overlap_confidence": 0.576,
+    "match_method": "exact_name"
+  },
+  "T Dasarahalli": {
+    "datameet243_no": 21,
+    "bbmp225_no": 19,
+    "overlap_confidence": 0.696,
+    "match_method": "exact_name"
+  },
+  "Jalahalli": {
+    "datameet243_no": 40,
+    "bbmp225_no": 36,
+    "overlap_confidence": 0.69,
+    "match_method": "exact_name"
+  },
+  "J P Park": {
+    "datameet243_no": 38,
+    "bbmp225_no": 34,
+    "overlap_confidence": 0.487,
+    "match_method": "fuzzy_name",
+    "matched_to": "JP Park"
+  },
+  "Radhakrishna Temple": {
+    "datameet243_no": 66,
+    "bbmp225_no": 61,
+    "overlap_confidence": 0.928,
+    "match_method": "fuzzy_name",
+    "matched_to": "Radhakrishna Temple Ward"
+  },
+  "Sanjay Nagar": {
+    "datameet243_no": 67,
+    "bbmp225_no": 62,
+    "overlap_confidence": 0.995,
+    "match_method": "fuzzy_name",
+    "matched_to": "Sanjaya Nagar"
+  },
+  "Ganga Nagar": {
+    "datameet243_no": 72,
+    "bbmp225_no": 67,
+    "overlap_confidence": 0.889,
+    "match_method": "exact_name"
+  },
+  "Hebbal": {
+    "datameet243_no": 70,
+    "bbmp225_no": 63,
+    "overlap_confidence": 0.882,
+    "match_method": "fuzzy_name",
+    "matched_to": "Hebbala"
+  },
+  "Vishwanath Nagenahalli": {
+    "datameet243_no": 68,
+    "bbmp225_no": 64,
+    "overlap_confidence": 0.748,
+    "match_method": "exact_name"
+  },
+  "Nagavara": {
+    "datameet243_no": 95,
+    "bbmp225_no": 77,
+    "overlap_confidence": 0.51,
+    "match_method": "exact_name"
+  },
+  "HBR Layout": {
+    "datameet243_no": 96,
+    "bbmp225_no": 78,
+    "overlap_confidence": 0.671,
+    "match_method": "exact_name"
+  },
+  "Horamavu": {
+    "datameet243_no": 81,
+    "bbmp225_no": 87,
+    "overlap_confidence": 0.803,
+    "match_method": "exact_name"
+  },
+  "Ramamurthy Nagar": {
+    "datameet243_no": 86,
+    "bbmp225_no": 90,
+    "overlap_confidence": 0.409,
+    "match_method": "exact_name"
+  },
+  "Banasavadi": {
+    "datameet243_no": 100,
+    "bbmp225_no": 82,
+    "overlap_confidence": 1.0,
+    "match_method": "exact_name"
+  },
+  "Kammanahalli": {
+    "datameet243_no": 99,
+    "bbmp225_no": 81,
+    "overlap_confidence": 0.64,
+    "match_method": "exact_name"
+  },
+  "Kacharkanahalli": {
+    "datameet243_no": 99,
+    "bbmp225_no": 80,
+    "overlap_confidence": 0.614,
+    "match_method": "exact_name"
+  },
+  "Kadugondanahalli": {
+    "datameet243_no": 97,
+    "bbmp225_no": 79,
+    "overlap_confidence": 0.955,
+    "match_method": "exact_name"
+  },
+  "Kushal Nagar": {
+    "datameet243_no": 75,
+    "bbmp225_no": 70,
+    "overlap_confidence": 0.599,
+    "match_method": "exact_name"
+  },
+  "Kaval Bairasandra": {
+    "datameet243_no": 74,
+    "bbmp225_no": 69,
+    "overlap_confidence": 0.684,
+    "match_method": "exact_name"
+  },
+  "Manorayanapalya": {
+    "datameet243_no": 69,
+    "bbmp225_no": 65,
+    "overlap_confidence": 0.868,
+    "match_method": "exact_name"
+  },
+  "Gangenahalli": {
+    "datameet243_no": 150,
+    "bbmp225_no": 137,
+    "overlap_confidence": 0.638,
+    "match_method": "fuzzy_name",
+    "matched_to": "Marenahalli"
+  },
+  "Aramane Nagara": {
+    "datameet243_no": 60,
+    "bbmp225_no": 56,
+    "overlap_confidence": 0.966,
+    "match_method": "exact_name"
+  },
+  "Mattikere": {
+    "datameet243_no": 59,
+    "bbmp225_no": 54,
+    "overlap_confidence": 0.758,
+    "match_method": "exact_name"
+  },
+  "Yeshwanthpura": {
+    "datameet243_no": 38,
+    "bbmp225_no": 35,
+    "overlap_confidence": 0.539,
+    "match_method": "exact_name"
+  },
+  "Chokkasandra": {
+    "datameet243_no": 24,
+    "bbmp225_no": 21,
+    "overlap_confidence": 0.828,
+    "match_method": "exact_name"
+  },
+  "Dodda Bidarakallu": {
+    "datameet243_no": 28,
+    "bbmp225_no": 26,
+    "overlap_confidence": 0.963,
+    "match_method": "exact_name"
+  },
+  "Peenya Industrial Area": {
+    "datameet243_no": 23,
+    "bbmp225_no": 22,
+    "overlap_confidence": 0.902,
+    "match_method": "exact_name"
+  },
+  "Lakshmi Devi Nagar": {
+    "datameet243_no": 36,
+    "bbmp225_no": 38,
+    "overlap_confidence": 0.539,
+    "match_method": "fuzzy_name",
+    "matched_to": "Laxmidevi Nagar"
+  },
+  "Marappana Palya": {
+    "datameet243_no": 196,
+    "bbmp225_no": 183,
+    "overlap_confidence": 0.552,
+    "match_method": "fuzzy_name",
+    "matched_to": "Gurappanapalya"
+  },
+  "Malleswaram": {
+    "datameet243_no": 61,
+    "bbmp225_no": 55,
+    "overlap_confidence": 0.703,
+    "match_method": "exact_name"
+  },
+  "Jayachamarajendra Nagar": {
+    "datameet243_no": 73,
+    "bbmp225_no": 68,
+    "overlap_confidence": 1.0,
+    "match_method": "fuzzy_name",
+    "matched_to": "Jayachamarajendra  Nagar"
+  },
+  "Devara Jeevanahalli": {
+    "datameet243_no": 77,
+    "bbmp225_no": 72,
+    "overlap_confidence": 0.714,
+    "match_method": "exact_name"
+  },
+  "Muneshwara Nagar": {
+    "datameet243_no": 76,
+    "bbmp225_no": 71,
+    "overlap_confidence": 0.619,
+    "match_method": "exact_name"
+  },
+  "Lingarajapura": {
+    "datameet243_no": 102,
+    "bbmp225_no": 84,
+    "overlap_confidence": 0.781,
+    "match_method": "exact_name"
+  },
+  "Benniganahalli": {
+    "datameet243_no": 118,
+    "bbmp225_no": 109,
+    "overlap_confidence": 0.85,
+    "match_method": "exact_name"
+  },
+  "Vijnanapura": {
+    "datameet243_no": 84,
+    "bbmp225_no": 89,
+    "overlap_confidence": 0.449,
+    "match_method": "fuzzy_name",
+    "matched_to": "Vijinapura"
+  },
+  "K R Puram": {
+    "datameet243_no": 86,
+    "bbmp225_no": 91,
+    "overlap_confidence": 0.675,
+    "match_method": "exact_name"
+  },
+  "Basavanapura": {
+    "datameet243_no": 88,
+    "bbmp225_no": 92,
+    "overlap_confidence": 0.773,
+    "match_method": "exact_name"
+  },
+  "Devasandra": {
+    "datameet243_no": 89,
+    "bbmp225_no": 93,
+    "overlap_confidence": 0.774,
+    "match_method": "exact_name"
+  },
+  "A Narayanapura": {
+    "datameet243_no": 90,
+    "bbmp225_no": 94,
+    "overlap_confidence": 0.641,
+    "match_method": "fuzzy_name",
+    "matched_to": "A. Narayanapura"
+  },
+  "C V Raman Nagar": {
+    "datameet243_no": 117,
+    "bbmp225_no": 110,
+    "overlap_confidence": 0.834,
+    "match_method": "exact_name"
+  },
+  "New Tippasandra": {
+    "datameet243_no": 122,
+    "bbmp225_no": 112,
+    "overlap_confidence": 0.712,
+    "match_method": "fuzzy_name",
+    "matched_to": "New Tippasandara"
+  },
+  "Maruthi Seva Nagar": {
+    "datameet243_no": 103,
+    "bbmp225_no": 85,
+    "overlap_confidence": 0.815,
+    "match_method": "exact_name"
+  },
+  "Sagayarapuram": {
+    "datameet243_no": 79,
+    "bbmp225_no": 74,
+    "overlap_confidence": 1.0,
+    "match_method": "exact_name"
+  },
+  "S K Garden": {
+    "datameet243_no": 78,
+    "bbmp225_no": 73,
+    "overlap_confidence": 0.492,
+    "match_method": "exact_name"
+  },
+  "Ramaswamy Palya": {
+    "datameet243_no": 126,
+    "bbmp225_no": 116,
+    "overlap_confidence": 0.659,
+    "match_method": "fuzzy_name",
+    "matched_to": "Ramaswamypalya"
+  },
+  "Rajamahal Guttahalli": {
+    "datameet243_no": 65,
+    "bbmp225_no": 57,
+    "overlap_confidence": 0.909,
+    "match_method": "exact_name"
+  },
+  "Kadu Malleshwara": {
+    "datameet243_no": 61,
+    "bbmp225_no": 58,
+    "overlap_confidence": 0.487,
+    "match_method": "fuzzy_name",
+    "matched_to": "Kadu Malleshwar Ward"
+  },
+  "Subramanya Nagar": {
+    "datameet243_no": 62,
+    "bbmp225_no": 59,
+    "overlap_confidence": 0.756,
+    "match_method": "exact_name"
+  },
+  "Nagapura": {
+    "datameet243_no": 51,
+    "bbmp225_no": 49,
+    "overlap_confidence": 0.667,
+    "match_method": "exact_name"
+  },
+  "Mahalakshimpuram": {
+    "datameet243_no": 52,
+    "bbmp225_no": 48,
+    "overlap_confidence": 0.634,
+    "match_method": "fuzzy_name",
+    "matched_to": "Mahalakshmipuram"
+  },
+  "Laggere": {
+    "datameet243_no": 42,
+    "bbmp225_no": 39,
+    "overlap_confidence": 0.591,
+    "match_method": "exact_name"
+  },
+  "Rajagopalanagar": {
+    "datameet243_no": 25,
+    "bbmp225_no": 23,
+    "overlap_confidence": 0.852,
+    "match_method": "fuzzy_name",
+    "matched_to": "Rajagopal Nagar"
+  },
+  "Heggenahali": {
+    "datameet243_no": 26,
+    "bbmp225_no": 24,
+    "overlap_confidence": 0.751,
+    "match_method": "fuzzy_name",
+    "matched_to": "Hegganahalli"
+  },
+  "Herohalli": {
+    "datameet243_no": 30,
+    "bbmp225_no": 28,
+    "overlap_confidence": 0.642,
+    "match_method": "exact_name"
+  },
+  "Kottigepalya": {
+    "datameet243_no": 45,
+    "bbmp225_no": 41,
+    "overlap_confidence": 0.827,
+    "match_method": "fuzzy_name",
+    "matched_to": "Kottegepalya"
+  },
+  "Shakthi Ganapathi Nagar": {
+    "datameet243_no": 57,
+    "bbmp225_no": 52,
+    "overlap_confidence": 0.754,
+    "match_method": "exact_name"
+  },
+  "Shankar Matt": {
+    "datameet243_no": 56,
+    "bbmp225_no": 51,
+    "overlap_confidence": 0.837,
+    "match_method": "exact_name"
+  },
+  "Gayathri Nagar": {
+    "datameet243_no": 63,
+    "bbmp225_no": 60,
+    "overlap_confidence": 1.0,
+    "match_method": "fuzzy_name",
+    "matched_to": "Gayithri Nagar"
+  },
+  "Dattatreya Temple": {
+    "datameet243_no": 132,
+    "bbmp225_no": 122,
+    "overlap_confidence": 0.892,
+    "match_method": "exact_name"
+  },
+  "Pulikeshinagar": {
+    "datameet243_no": 80,
+    "bbmp225_no": 75,
+    "overlap_confidence": 1.0,
+    "match_method": "exact_name"
+  },
+  "Hoysala Nagar": {
+    "datameet243_no": 120,
+    "bbmp225_no": 113,
+    "overlap_confidence": 0.747,
+    "match_method": "exact_name"
+  },
+  "Vijnana Nagar": {
+    "datameet243_no": 92,
+    "bbmp225_no": 95,
+    "overlap_confidence": 0.703,
+    "match_method": "exact_name"
+  },
+  "Garudachar Palya": {
+    "datameet243_no": 107,
+    "bbmp225_no": 100,
+    "overlap_confidence": 0.516,
+    "match_method": "exact_name"
+  },
+  "Kadugodi": {
+    "datameet243_no": 104,
+    "bbmp225_no": 97,
+    "overlap_confidence": 0.417,
+    "match_method": "exact_name"
+  },
+  "Dodda Nekkundi": {
+    "datameet243_no": 108,
+    "bbmp225_no": 101,
+    "overlap_confidence": 0.93,
+    "match_method": "exact_name"
+  },
+  "Marathahalli": {
+    "datameet243_no": 115,
+    "bbmp225_no": 106,
+    "overlap_confidence": 0.872,
+    "match_method": "exact_name"
+  },
+  "HAL Airport": {
+    "datameet243_no": 93,
+    "bbmp225_no": 96,
+    "overlap_confidence": 0.977,
+    "match_method": "exact_name"
+  },
+  "Jeevanbhima Nagar": {
+    "datameet243_no": 124,
+    "bbmp225_no": 114,
+    "overlap_confidence": 0.653,
+    "match_method": "exact_name"
+  },
+  "Jogupalya": {
+    "datameet243_no": 179,
+    "bbmp225_no": 170,
+    "overlap_confidence": 0.447,
+    "match_method": "exact_name"
+  },
+  "Ulsoor": {
+    "datameet243_no": 131,
+    "bbmp225_no": 121,
+    "overlap_confidence": 1.0,
+    "match_method": "exact_name"
+  },
+  "Bharathi Nagar": {
+    "datameet243_no": 130,
+    "bbmp225_no": 120,
+    "overlap_confidence": 0.891,
+    "match_method": "exact_name"
+  },
+  "Shivaji Nagar": {
+    "datameet243_no": 129,
+    "bbmp225_no": 119,
+    "overlap_confidence": 0.658,
+    "match_method": "exact_name"
+  },
+  "Vasanth Nagar": {
+    "datameet243_no": 128,
+    "bbmp225_no": 117,
+    "overlap_confidence": 0.719,
+    "match_method": "fuzzy_name",
+    "matched_to": "Vasanthnagar"
+  },
+  "Gandhi Nagar": {
+    "datameet243_no": 133,
+    "bbmp225_no": 123,
+    "overlap_confidence": 0.986,
+    "match_method": "fuzzy_name",
+    "matched_to": "Gandhinagar"
+  },
+  "Subhash Nagar": {
+    "datameet243_no": 134,
+    "bbmp225_no": 124,
+    "overlap_confidence": 1.0,
+    "match_method": "exact_name"
+  },
+  "Okalipuram": {
+    "datameet243_no": 135,
+    "bbmp225_no": 125,
+    "overlap_confidence": 1.0,
+    "match_method": "exact_name"
+  },
+  "Dayananda Nagar": {
+    "datameet243_no": 139,
+    "bbmp225_no": 129,
+    "overlap_confidence": 0.769,
+    "match_method": "exact_name"
+  },
+  "Rajaji Nagar": {
+    "datameet243_no": 141,
+    "bbmp225_no": 132,
+    "overlap_confidence": 0.725,
+    "match_method": "exact_name"
+  },
+  "Basaveshwara Nagar": {
+    "datameet243_no": 144,
+    "bbmp225_no": 133,
+    "overlap_confidence": 0.819,
+    "match_method": "exact_name"
+  },
+  "Kamakshipalya": {
+    "datameet243_no": 145,
+    "bbmp225_no": 134,
+    "overlap_confidence": 0.851,
+    "match_method": "exact_name"
+  },
+  "Vrushabhavathi Nagar": {
+    "datameet243_no": 58,
+    "bbmp225_no": 53,
+    "overlap_confidence": 0.93,
+    "match_method": "fuzzy_name",
+    "matched_to": "Vrisabhavathi Nagar"
+  },
+  "Kaveripura": {
+    "datameet243_no": 149,
+    "bbmp225_no": 138,
+    "overlap_confidence": 0.848,
+    "match_method": "exact_name"
+  },
+  "Govindaraja Nagar": {
+    "datameet243_no": 147,
+    "bbmp225_no": 136,
+    "overlap_confidence": 0.43,
+    "match_method": "exact_name"
+  },
+  "Shivanagar": {
+    "datameet243_no": 143,
+    "bbmp225_no": 131,
+    "overlap_confidence": 0.651,
+    "match_method": "fuzzy_name",
+    "matched_to": "Shivanagara"
+  },
+  "Sriramamandira": {
+    "datameet243_no": 142,
+    "bbmp225_no": 130,
+    "overlap_confidence": 0.751,
+    "match_method": "fuzzy_name",
+    "matched_to": "Sriramamandir"
+  },
+  "Chickpet": {
+    "datameet243_no": 138,
+    "bbmp225_no": 128,
+    "overlap_confidence": 1.0,
+    "match_method": "fuzzy_name",
+    "matched_to": "Chickpete"
+  },
+  "Sampangiram Nagar": {
+    "datameet243_no": 129,
+    "bbmp225_no": 118,
+    "overlap_confidence": 0.688,
+    "match_method": "exact_name"
+  },
+  "Shantala Nagar": {
+    "datameet243_no": 182,
+    "bbmp225_no": 166,
+    "overlap_confidence": 0.856,
+    "match_method": "fuzzy_name",
+    "matched_to": "Shanthi Nagar"
+  },
+  "Domlur": {
+    "datameet243_no": 178,
+    "bbmp225_no": 171,
+    "overlap_confidence": 0.833,
+    "match_method": "exact_name"
+  },
+  "Konena Agrahara": {
+    "datameet243_no": 124,
+    "bbmp225_no": 115,
+    "overlap_confidence": 0.599,
+    "match_method": "exact_name"
+  },
+  "Agaram": {
+    "datameet243_no": 180,
+    "bbmp225_no": 172,
+    "overlap_confidence": 0.989,
+    "match_method": "exact_name"
+  },
+  "Vannarpet": {
+    "datameet243_no": 181,
+    "bbmp225_no": 169,
+    "overlap_confidence": 0.662,
+    "match_method": "exact_name"
+  },
+  "Neelasandra": {
+    "datameet243_no": 183,
+    "bbmp225_no": 168,
+    "overlap_confidence": 0.694,
+    "match_method": "fuzzy_name",
+    "matched_to": "Nilasandra"
+  },
+  "Shanthi Nagar": {
+    "datameet243_no": 182,
+    "bbmp225_no": 166,
+    "overlap_confidence": 0.856,
+    "match_method": "exact_name"
+  },
+  "Sudham Nagara": {
+    "datameet243_no": 134,
+    "bbmp225_no": 124,
+    "overlap_confidence": 1.0,
+    "match_method": "fuzzy_name",
+    "matched_to": "Subhash Nagar"
+  },
+  "Dharmaraya Swamy Temple": {
+    "datameet243_no": 172,
+    "bbmp225_no": 160,
+    "overlap_confidence": 0.524,
+    "match_method": "exact_name"
+  },
+  "Cottonpete": {
+    "datameet243_no": 137,
+    "bbmp225_no": 127,
+    "overlap_confidence": 0.979,
+    "match_method": "exact_name"
+  },
+  "Binnipet": {
+    "datameet243_no": 136,
+    "bbmp225_no": 126,
+    "overlap_confidence": 0.924,
+    "match_method": "fuzzy_name",
+    "matched_to": "Binnipete"
+  },
+  "Kempapura Agrahara": {
+    "datameet243_no": 156,
+    "bbmp225_no": 144,
+    "overlap_confidence": 1.0,
+    "match_method": "exact_name"
+  },
+  "Vijayanagar": {
+    "datameet243_no": 157,
+    "bbmp225_no": 145,
+    "overlap_confidence": 0.845,
+    "match_method": "exact_name"
+  },
+  "Hosahalli": {
+    "datameet243_no": 158,
+    "bbmp225_no": 146,
+    "overlap_confidence": 0.711,
+    "match_method": "exact_name"
+  },
+  "Marenahalli": {
+    "datameet243_no": 150,
+    "bbmp225_no": 137,
+    "overlap_confidence": 0.638,
+    "match_method": "exact_name"
+  },
+  "Maruthi Mandira": {
+    "datameet243_no": 151,
+    "bbmp225_no": 140,
+    "overlap_confidence": 0.738,
+    "match_method": "fuzzy_name",
+    "matched_to": "Maruthi Mandir ward"
+  },
+  "Mudalapalya": {
+    "datameet243_no": 152,
+    "bbmp225_no": 139,
+    "overlap_confidence": 0.806,
+    "match_method": "exact_name"
+  },
+  "Nagarabhavi": {
+    "datameet243_no": 153,
+    "bbmp225_no": 141,
+    "overlap_confidence": 0.587,
+    "match_method": "exact_name"
+  },
+  "Jnana Bharathi": {
+    "datameet243_no": 48,
+    "bbmp225_no": 44,
+    "overlap_confidence": 0.948,
+    "match_method": "fuzzy_name",
+    "matched_to": "Jnana Bharathi ward"
+  },
+  "Ullalu": {
+    "datameet243_no": 31,
+    "bbmp225_no": 29,
+    "overlap_confidence": 0.802,
+    "match_method": "exact_name"
+  },
+  "Nayandahalli": {
+    "datameet243_no": 155,
+    "bbmp225_no": 143,
+    "overlap_confidence": 0.781,
+    "match_method": "exact_name"
+  },
+  "Attiguppe": {
+    "datameet243_no": 161,
+    "bbmp225_no": 150,
+    "overlap_confidence": 0.78,
+    "match_method": "exact_name"
+  },
+  "Hampi Nagar": {
+    "datameet243_no": 159,
+    "bbmp225_no": 147,
+    "overlap_confidence": 0.517,
+    "match_method": "exact_name"
+  },
+  "Bapuji Nagar": {
+    "datameet243_no": 50,
+    "bbmp225_no": 46,
+    "overlap_confidence": 0.903,
+    "match_method": "fuzzy_name",
+    "matched_to": "Rajiv Nagar"
+  },
+  "Padarayanapura": {
+    "datameet243_no": 169,
+    "bbmp225_no": 153,
+    "overlap_confidence": 0.667,
+    "match_method": "exact_name"
+  },
+  "Rayapuram": {
+    "datameet243_no": 167,
+    "bbmp225_no": 154,
+    "overlap_confidence": 0.76,
+    "match_method": "exact_name"
+  },
+  "K R Market": {
+    "datameet243_no": 165,
+    "bbmp225_no": 157,
+    "overlap_confidence": 0.665,
+    "match_method": "exact_name"
+  },
+  "Chamrajapet": {
+    "datameet243_no": 165,
+    "bbmp225_no": 158,
+    "overlap_confidence": 0.869,
+    "match_method": "exact_name"
+  },
+  "Azad Nagar": {
+    "datameet243_no": 170,
+    "bbmp225_no": 159,
+    "overlap_confidence": 0.917,
+    "match_method": "exact_name"
+  },
+  "Sunkenahalli": {
+    "datameet243_no": 173,
+    "bbmp225_no": 162,
+    "overlap_confidence": 0.644,
+    "match_method": "exact_name"
+  },
+  "Vishveshwarapura": {
+    "datameet243_no": 174,
+    "bbmp225_no": 163,
+    "overlap_confidence": 0.525,
+    "match_method": "fuzzy_name",
+    "matched_to": "Vishveshwara Puram"
+  },
+  "Hombegowda Nagar": {
+    "datameet243_no": 177,
+    "bbmp225_no": 164,
+    "overlap_confidence": 0.836,
+    "match_method": "exact_name"
+  },
+  "Lakkasandra": {
+    "datameet243_no": 188,
+    "bbmp225_no": 177,
+    "overlap_confidence": 0.741,
+    "match_method": "exact_name"
+  },
+  "Adugodi": {
+    "datameet243_no": 187,
+    "bbmp225_no": 176,
+    "overlap_confidence": 0.627,
+    "match_method": "exact_name"
+  },
+  "Ejipura": {
+    "datameet243_no": 185,
+    "bbmp225_no": 173,
+    "overlap_confidence": 0.838,
+    "match_method": "exact_name"
+  },
+  "Varthur": {
+    "datameet243_no": 112,
+    "bbmp225_no": 104,
+    "overlap_confidence": 0.786,
+    "match_method": "fuzzy_name",
+    "matched_to": "Varthuru"
+  },
+  "Bellanduru": {
+    "datameet243_no": 116,
+    "bbmp225_no": 107,
+    "overlap_confidence": 0.905,
+    "match_method": "exact_name"
+  },
+  "Koramangala": {
+    "datameet243_no": 186,
+    "bbmp225_no": 174,
+    "overlap_confidence": 0.85,
+    "match_method": "exact_name"
+  },
+  "Suddagunte Palya": {
+    "datameet243_no": 189,
+    "bbmp225_no": 178,
+    "overlap_confidence": 0.648,
+    "match_method": "exact_name"
+  },
+  "Jayanagar": {
+    "datameet243_no": 157,
+    "bbmp225_no": 145,
+    "overlap_confidence": 0.845,
+    "match_method": "fuzzy_name",
+    "matched_to": "Vijayanagar"
+  },
+  "Basavanagudi": {
+    "datameet243_no": 88,
+    "bbmp225_no": 92,
+    "overlap_confidence": 0.773,
+    "match_method": "fuzzy_name",
+    "matched_to": "Basavanapura"
+  },
+  "Hanumantha Nagar": {
+    "datameet243_no": 206,
+    "bbmp225_no": 193,
+    "overlap_confidence": 0.52,
+    "match_method": "fuzzy_name",
+    "matched_to": "Padmanabha Nagar"
+  },
+  "Srinagar": {
+    "datameet243_no": 213,
+    "bbmp225_no": 197,
+    "overlap_confidence": 0.628,
+    "match_method": "exact_name"
+  },
+  "Gali Anjaneya Temple": {
+    "datameet243_no": 159,
+    "bbmp225_no": 149,
+    "overlap_confidence": 0.608,
+    "match_method": "fuzzy_name",
+    "matched_to": "Gali Anjaneya Temple Ward"
+  },
+  "Deepanjali Nagar": {
+    "datameet243_no": 163,
+    "bbmp225_no": 151,
+    "overlap_confidence": 0.649,
+    "match_method": "exact_name"
+  },
+  "Kengeri": {
+    "datameet243_no": 34,
+    "bbmp225_no": 32,
+    "overlap_confidence": 0.53,
+    "match_method": "exact_name"
+  },
+  "Rajarajeshwari Nagar": {
+    "datameet243_no": 49,
+    "bbmp225_no": 45,
+    "overlap_confidence": 0.906,
+    "match_method": "exact_name"
+  },
+  "Hosakerehalli": {
+    "datameet243_no": 209,
+    "bbmp225_no": 195,
+    "overlap_confidence": 0.725,
+    "match_method": "exact_name"
+  },
+  "Girinagar": {
+    "datameet243_no": 213,
+    "bbmp225_no": 197,
+    "overlap_confidence": 0.628,
+    "match_method": "fuzzy_name",
+    "matched_to": "Srinagar"
+  },
+  "Katriguppe": {
+    "datameet243_no": 215,
+    "bbmp225_no": 201,
+    "overlap_confidence": 0.47,
+    "match_method": "exact_name"
+  },
+  "Ganesh Mandir": {
+    "datameet243_no": 202,
+    "bbmp225_no": 189,
+    "overlap_confidence": 0.549,
+    "match_method": "fuzzy_name",
+    "matched_to": "Ganesh Mandir ward"
+  },
+  "Karisandra": {
+    "datameet243_no": 8,
+    "bbmp225_no": 7,
+    "overlap_confidence": 0.681,
+    "match_method": "fuzzy_name",
+    "matched_to": "Thanisandra"
+  },
+  "Yediyur": {
+    "datameet243_no": 200,
+    "bbmp225_no": 188,
+    "overlap_confidence": 0.514,
+    "match_method": "exact_name"
+  },
+  "Byrasandra": {
+    "datameet243_no": 196,
+    "bbmp225_no": 182,
+    "overlap_confidence": 0.545,
+    "match_method": "exact_name"
+  },
+  "Jayanagar East": {
+    "datameet243_no": 194,
+    "bbmp225_no": 184,
+    "overlap_confidence": 0.608,
+    "match_method": "exact_name"
+  },
+  "Gurappanpalya": {
+    "datameet243_no": 196,
+    "bbmp225_no": 183,
+    "overlap_confidence": 0.552,
+    "match_method": "fuzzy_name",
+    "matched_to": "Gurappanapalya"
+  },
+  "Madivala": {
+    "datameet243_no": 190,
+    "bbmp225_no": 179,
+    "overlap_confidence": 0.669,
+    "match_method": "exact_name"
+  },
+  "Jakkasandra": {
+    "datameet243_no": 191,
+    "bbmp225_no": 175,
+    "overlap_confidence": 0.744,
+    "match_method": "exact_name"
+  },
+  "HSR Layout": {
+    "datameet243_no": 230,
+    "bbmp225_no": 221,
+    "overlap_confidence": 0.718,
+    "match_method": "exact_name"
+  },
+  "Bommanahalli": {
+    "datameet243_no": 235,
+    "bbmp225_no": 218,
+    "overlap_confidence": 0.549,
+    "match_method": "exact_name"
+  },
+  "BTM Layout": {
+    "datameet243_no": 193,
+    "bbmp225_no": 181,
+    "overlap_confidence": 0.714,
+    "match_method": "exact_name"
+  },
+  "JP Nagar": {
+    "datameet243_no": 198,
+    "bbmp225_no": 185,
+    "overlap_confidence": 0.718,
+    "match_method": "fuzzy_name",
+    "matched_to": "J P Nagar"
+  },
+  "Sarakki": {
+    "datameet243_no": 199,
+    "bbmp225_no": 187,
+    "overlap_confidence": 0.751,
+    "match_method": "exact_name"
+  },
+  "Shakambari Nagar": {
+    "datameet243_no": 197,
+    "bbmp225_no": 186,
+    "overlap_confidence": 0.623,
+    "match_method": "exact_name"
+  },
+  "Banashankari Temple": {
+    "datameet243_no": 203,
+    "bbmp225_no": 191,
+    "overlap_confidence": 0.719,
+    "match_method": "fuzzy_name",
+    "matched_to": "Banashankari Temple ward"
+  },
+  "Kumaraswamy Layout": {
+    "datameet243_no": 204,
+    "bbmp225_no": 192,
+    "overlap_confidence": 0.468,
+    "match_method": "exact_name"
+  },
+  "Padmanabha Nagar": {
+    "datameet243_no": 206,
+    "bbmp225_no": 193,
+    "overlap_confidence": 0.52,
+    "match_method": "exact_name"
+  },
+  "Chikallasandra": {
+    "datameet243_no": 207,
+    "bbmp225_no": 194,
+    "overlap_confidence": 0.537,
+    "match_method": "fuzzy_name",
+    "matched_to": "Chikkalsandra"
+  },
+  "Uttarahalli": {
+    "datameet243_no": 217,
+    "bbmp225_no": 202,
+    "overlap_confidence": 0.595,
+    "match_method": "exact_name"
+  },
+  "Yelchenahalli": {
+    "datameet243_no": 220,
+    "bbmp225_no": 205,
+    "overlap_confidence": 0.876,
+    "match_method": "exact_name"
+  },
+  "Jaraganahalli": {
+    "datameet243_no": 242,
+    "bbmp225_no": 213,
+    "overlap_confidence": 0.589,
+    "match_method": "exact_name"
+  },
+  "Puttenahalli": {
+    "datameet243_no": 241,
+    "bbmp225_no": 214,
+    "overlap_confidence": 0.461,
+    "match_method": "exact_name"
+  },
+  "Bilekahalli": {
+    "datameet243_no": 240,
+    "bbmp225_no": 215,
+    "overlap_confidence": 0.505,
+    "match_method": "fuzzy_name",
+    "matched_to": "Bilekhalli"
+  },
+  "Hongasandra": {
+    "datameet243_no": 234,
+    "bbmp225_no": 219,
+    "overlap_confidence": 0.542,
+    "match_method": "exact_name"
+  },
+  "Mangamannapalya": {
+    "datameet243_no": 231,
+    "bbmp225_no": 223,
+    "overlap_confidence": 0.647,
+    "match_method": "fuzzy_name",
+    "matched_to": "Mangammanapalya"
+  },
+  "Singasandra": {
+    "datameet243_no": 234,
+    "bbmp225_no": 219,
+    "overlap_confidence": 0.542,
+    "match_method": "fuzzy_name",
+    "matched_to": "Hongasandra"
+  },
+  "Begur": {
+    "datameet243_no": 227,
+    "bbmp225_no": 211,
+    "overlap_confidence": 1.0,
+    "match_method": "exact_name"
+  },
+  "Gottigere": {
+    "datameet243_no": 225,
+    "bbmp225_no": 209,
+    "overlap_confidence": 0.652,
+    "match_method": "exact_name"
+  },
+  "Konankunte": {
+    "datameet243_no": 221,
+    "bbmp225_no": 206,
+    "overlap_confidence": 0.83,
+    "match_method": "fuzzy_name",
+    "matched_to": "Konanakunte"
+  },
+  "Anjanapura": {
+    "datameet243_no": 224,
+    "bbmp225_no": 208,
+    "overlap_confidence": 0.864,
+    "match_method": "exact_name"
+  },
+  "Vasanthapura": {
+    "datameet243_no": 219,
+    "bbmp225_no": 204,
+    "overlap_confidence": 0.639,
+    "match_method": "fuzzy_name",
+    "matched_to": "Vasanthpura"
+  },
+  "Hemmigepura": {
+    "datameet243_no": 35,
+    "bbmp225_no": 33,
+    "overlap_confidence": 1.0,
+    "match_method": "exact_name"
+  }
+}

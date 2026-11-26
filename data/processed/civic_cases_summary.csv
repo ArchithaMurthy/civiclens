@@ -1,0 +1,299 @@
+case_id,priority_tier,priority_score,problem_title,complaint_count,primary_ward_name,years_active,unresolved_rate_pct,open_count,reopened_count,responsible_agency,cluster_method,cluster_confidence
+CASE-GEO-0063,HIGH,0.7286,Recurring Tarring Or Asphalting Of Existing Road — Horamavu (2019–2022),34,Horamavu,"[2019, 2020, 2021, 2022]",50.0,17,2,BBMP,geo_dbscan,0.95
+CASE-GEO-0037,HIGH,0.7091,Recurring Fixing/Reparing Potholes — Uttarahalli (2019–2022),35,Uttarahalli,"[2019, 2020, 2021, 2022]",48.6,17,1,BBMP,geo_dbscan,0.95
+CASE-GEO-0008,HIGH,0.7003,Recurring Fixing/Reparing Potholes — Thanisandra (2019–2022),43,Thanisandra,"[2019, 2020, 2021, 2022]",55.8,24,1,BBMP,geo_dbscan,0.95
+CASE-GEO-0094,HIGH,0.6982,Recurring Fixing/Reparing Potholes — C V Raman Nagar (2019–2022),28,C V Raman Nagar,"[2019, 2020, 2021, 2022]",60.7,17,8,BBMP,geo_dbscan,0.95
+CASE-WARD-025-FIXINGR,HIGH,0.6908,Recurring Fixing/Reparing Potholes — Horamavu (2019–2022),44,Horamavu,"[2019, 2020, 2021, 2022]",63.6,28,2,BBMP,ward_temporal,0.75
+CASE-GEO-0071,HIGH,0.6866,Recurring Fixing/Reparing Potholes — Singasandra (2019–2022),27,Singasandra,"[2019, 2020, 2021, 2022]",51.9,14,1,BBMP,geo_dbscan,0.95
+CASE-GEO-0009,HIGH,0.6852,Recurring Fixing/Reparing Potholes — Chickpet (2019–2022),34,Chickpet,"[2019, 2020, 2021, 2022]",55.9,19,1,BBMP,geo_dbscan,0.95
+CASE-GEO-0044,HIGH,0.6844,Recurring Fixing/Reparing Potholes — Begur (2019–2022),56,Begur,"[2019, 2020, 2021, 2022]",50.0,28,4,BBMP,geo_dbscan,0.95
+CASE-WARD-192-FIXINGR,HIGH,0.673,Recurring Fixing/Reparing Potholes — Begur (2019–2022),38,Begur,"[2019, 2020, 2021, 2022]",31.6,12,2,BBMP,ward_temporal,0.65
+CASE-GEO-0090,HIGH,0.6723,Recurring Fixing/Reparing Potholes — Begur (2019–2022),38,Begur,"[2019, 2020, 2021, 2022]",55.3,21,1,BBMP,geo_dbscan,0.95
+CASE-GEO-0066,HIGH,0.6669,Recurring Fixing/Reparing Potholes — Hagadur (2019–2022),38,Hagadur,"[2019, 2020, 2021, 2022]",52.6,20,1,BBMP,geo_dbscan,0.95
+CASE-GEO-0106,HIGH,0.6663,Recurring Fixing/Reparing Potholes — HBR Layout (2019–2022),29,HBR Layout,"[2019, 2020, 2021, 2022]",58.6,17,0,BBMP,geo_dbscan,0.9
+CASE-WARD-174-FIXINGR,HIGH,0.6656,Recurring Fixing/Reparing Potholes — HSR Layout (2019–2022),31,HSR Layout,"[2019, 2020, 2021, 2022]",48.4,15,3,BBMP,ward_temporal,0.75
+CASE-GEO-0076,HIGH,0.6639,Recurring Tarring Or Asphalting Of Existing Road — Hoodi (2019–2021),27,Hoodi,"[2019, 2020, 2021]",51.9,14,1,BBMP,geo_dbscan,0.95
+CASE-GEO-0034,HIGH,0.6601,Recurring Fixing/Reparing Potholes — Varthur (2019–2022),103,Varthur,"[2019, 2020, 2021, 2022]",50.5,52,0,BBMP,geo_dbscan,0.9
+CASE-GEO-0067,HIGH,0.6591,Recurring Tarring Or Asphalting Of Existing Road — Dodda Nekkundi (2019–2022),40,Dodda Nekkundi,"[2019, 2020, 2021, 2022]",50.0,20,0,BBMP,geo_dbscan,0.9
+CASE-GEO-0002,HIGH,0.6564,Recurring Fixing/Reparing Potholes — A Narayanapura (2019–2022),20,A Narayanapura,"[2019, 2020, 2021, 2022]",60.0,12,0,BBMP,geo_dbscan,0.9
+CASE-GEO-0123,HIGH,0.6531,Recurring Tarring Or Asphalting Of Existing Road — Konankunte (2019–2022),25,Konankunte,"[2019, 2020, 2021, 2022]",72.0,18,0,BBMP,geo_dbscan,0.9
+CASE-WARD-150-TARRING_,HIGH,0.6499,Recurring Tarring Or Asphalting Of Existing Road — Bellanduru (2019–2022),81,Bellanduru,"[2019, 2020, 2021, 2022]",23.5,19,6,BBMP,ward_temporal,0.65
+CASE-GEO-0007,HIGH,0.6473,Recurring Fixing/Reparing Potholes — Thanisandra (2019–2021),34,Thanisandra,"[2019, 2020, 2021]",44.1,15,0,BBMP,geo_dbscan,0.9
+CASE-GEO-0042,HIGH,0.6471,Recurring Fixing/Reparing Potholes — Vasanth Nagar (2019–2022),66,Vasanth Nagar,"[2019, 2020, 2021, 2022]",34.8,23,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0016,HIGH,0.6444,Recurring Fixing/Reparing Potholes — Hoodi (2019–2021),36,Hoodi,"[2019, 2020, 2021]",44.4,16,2,BBMP,geo_dbscan,0.95
+CASE-WARD-025-TARRING_,HIGH,0.6439,Recurring Tarring Or Asphalting Of Existing Road — Horamavu (2019–2021),42,Horamavu,"[2019, 2020, 2021]",33.3,14,0,BBMP,ward_temporal,0.6
+CASE-GEO-0128,HIGH,0.6421,Recurring Fixing/Reparing Potholes — Horamavu (2019–2022),26,Horamavu,"[2019, 2020, 2021, 2022]",61.5,16,0,BBMP,geo_dbscan,0.9
+CASE-GEO-0010,HIGH,0.6373,Recurring Fixing/Reparing Potholes — Bilekahalli (2019–2022),50,Bilekahalli,"[2019, 2020, 2021, 2022]",30.0,15,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0081,HIGH,0.6363,Recurring Tarring Or Asphalting Of Existing Road — Thanisandra (2019–2021),29,Thanisandra,"[2019, 2020, 2021]",34.5,10,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0033,HIGH,0.6341,Recurring Tarring Or Asphalting Of Existing Road — Thanisandra (2019–2022),44,Thanisandra,"[2019, 2020, 2022]",27.3,12,1,BBMP,geo_dbscan,0.85
+CASE-GEO-0113,HIGH,0.6311,Recurring Fixing/Reparing Potholes — Dodda Nekkundi (2019–2022),52,Dodda Nekkundi,"[2019, 2020, 2021, 2022]",25.0,13,2,BBMP,geo_dbscan,0.85
+CASE-GEO-0015,HIGH,0.6262,Recurring Fixing/Reparing Potholes — Mangamannapalya (2019–2022),38,Mangamannapalya,"[2019, 2020, 2021, 2022]",36.8,14,1,BBMP,geo_dbscan,0.85
+CASE-WARD-150-FIXINGR,HIGH,0.6242,Recurring Fixing/Reparing Potholes — Bellanduru (2019–2022),100,Bellanduru,"[2019, 2020, 2021, 2022]",27.0,27,2,BBMP,ward_temporal,0.65
+CASE-WARD-191-FIXINGR,HIGH,0.624,Recurring Fixing/Reparing Potholes — Singasandra (2019–2021),19,Singasandra,"[2019, 2020, 2021]",57.9,11,0,BBMP,ward_temporal,0.65
+CASE-GEO-0035,HIGH,0.6238,Recurring Tarring Or Asphalting Of Existing Road — Thanisandra (2019–2022),27,Thanisandra,"[2019, 2020, 2021, 2022]",51.9,14,0,BBMP,geo_dbscan,0.9
+CASE-GEO-0018,HIGH,0.6218,Recurring Fixing/Reparing Potholes — Arekere (2019–2022),39,Arekere,"[2019, 2020, 2021, 2022]",35.9,14,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0102,HIGH,0.621,Recurring Fixing/Reparing Potholes — Bellanduru (2019–2022),36,Bellanduru,"[2019, 2020, 2021, 2022]",25.0,9,1,BBMP,geo_dbscan,0.85
+CASE-WARD-192-TARRING_,HIGH,0.6168,Recurring Tarring Or Asphalting Of Existing Road — Begur (2019–2022),35,Begur,"[2019, 2020, 2021, 2022]",22.9,8,1,BBMP,ward_temporal,0.65
+CASE-GEO-0085,HIGH,0.6167,Recurring Fixing/Reparing Potholes — Bellanduru (2019–2021),33,Bellanduru,"[2019, 2020, 2021]",18.2,6,1,BBMP,geo_dbscan,0.85
+CASE-WARD-149-FIXINGR,HIGH,0.6105,Recurring Fixing/Reparing Potholes — Varthur (2019–2021),24,Varthur,"[2019, 2020, 2021]",37.5,9,0,BBMP,ward_temporal,0.6
+CASE-GEO-0000,HIGH,0.6029,Recurring Fixing/Reparing Potholes — Begur (2019–2022),21,Begur,"[2019, 2020, 2021, 2022]",66.7,14,2,BBMP,geo_dbscan,0.95
+CASE-GEO-0107,HIGH,0.6029,Recurring Fixing/Reparing Potholes — Pulikeshinagar (2019–2022),32,Pulikeshinagar,"[2019, 2020, 2021, 2022]",21.9,7,0,BBMP,geo_dbscan,0.8
+CASE-WARD-111-FIXINGR,HIGH,0.5807,Recurring Fixing/Reparing Potholes — Shantala Nagar (2019–2021),15,Shantala Nagar,"[2019, 2020, 2021]",60.0,9,0,BBMP,ward_temporal,0.65
+CASE-GEO-0116,HIGH,0.58,Recurring Tarring Or Asphalting Of Existing Road — Byatarayanapura (2019–2021),10,Byatarayanapura,"[2019, 2020, 2021]",90.0,9,0,BBMP,geo_dbscan,0.85
+CASE-GEO-0195,HIGH,0.5766,Recurring Tarring Or Asphalting Of Existing Road — Singasandra (2019–2021),8,Singasandra,"[2019, 2020, 2021]",87.5,7,1,BBMP,geo_dbscan,0.85
+CASE-GEO-0166,HIGH,0.5736,Recurring Fixing/Reparing Potholes — Kadu Malleshwara (2019–2021),11,Kadu Malleshwara,"[2019, 2020, 2021]",72.7,8,1,BBMP,geo_dbscan,0.9
+CASE-GEO-0130,HIGH,0.5634,Recurring Tarring Or Asphalting Of Existing Road — BTM Layout (2019–2021),22,BTM Layout,"[2019, 2020, 2021]",22.7,5,0,BBMP,geo_dbscan,0.8
+CASE-WARD-027-TARRING_,HIGH,0.5604,Recurring Tarring Or Asphalting Of Existing Road — Banasavadi (2019–2021),18,Banasavadi,"[2019, 2020, 2021]",44.4,8,0,BBMP,ward_temporal,0.65
+CASE-GEO-0191,HIGH,0.5602,Recurring Fixing/Reparing Potholes — Vasanth Nagar (2019–2022),11,Vasanth Nagar,"[2019, 2020, 2022]",81.8,9,0,BBMP,geo_dbscan,0.85
+CASE-WARD-160-TARRING_,HIGH,0.5543,Recurring Tarring Or Asphalting Of Existing Road — Rajarajeshwari Nagar (2019–2022),19,Rajarajeshwari Nagar,"[2019, 2020, 2021, 2022]",52.6,10,0,BBMP,ward_temporal,0.65
+CASE-GEO-0062,HIGH,0.5531,Recurring Construction Of Roadside Drains — Gayathri Nagar (2019–2021),17,Gayathri Nagar,"[2019, 2020, 2021]",52.9,9,0,BBMP,geo_dbscan,0.85
+CASE-WARD-191-TARRING_,MEDIUM,0.5491,Recurring Tarring Or Asphalting Of Existing Road — Singasandra (2019–2021),14,Singasandra,"[2019, 2020, 2021]",50.0,7,0,BBMP,ward_temporal,0.65
+CASE-GEO-0155,MEDIUM,0.5457,Recurring Fixing/Reparing Potholes — Shettihalli (2019–2021),12,Shettihalli,"[2019, 2020, 2021]",83.3,10,0,BBMP,geo_dbscan,0.85
+CASE-WARD-150-TARRING_,MEDIUM,0.5443,Recurring Tarring Or Asphalting Of Mud/Kutcha/Unpaved Road — Bellanduru (2019–2022),13,Bellanduru,"[2019, 2020, 2021, 2022]",69.2,9,1,BBMP,ward_temporal,0.7
+CASE-GEO-0160,MEDIUM,0.544,Recurring Tarring Or Asphalting Of Existing Road — Singasandra (2019–2021),14,Singasandra,"[2019, 2020, 2021]",42.9,6,0,BBMP,geo_dbscan,0.85
+CASE-GEO-0150,MEDIUM,0.5405,Recurring Fixing/Reparing Potholes — Ulsoor (2019–2022),16,Ulsoor,"[2019, 2020, 2021, 2022]",50.0,8,0,BBMP,geo_dbscan,0.85
+CASE-WARD-026-FIXINGR,MEDIUM,0.54,Recurring Fixing/Reparing Potholes — Ramamurthy Nagar (2019–2022),14,Ramamurthy Nagar,"[2019, 2020, 2021, 2022]",50.0,7,0,BBMP,ward_temporal,0.65
+CASE-GEO-0039,MEDIUM,0.5394,Recurring Construction Of Roadside Drains — Bagalakunte (2019–2022),13,Bagalakunte,"[2019, 2020, 2021, 2022]",61.5,8,0,BBMP,geo_dbscan,0.85
+CASE-GEO-0114,MEDIUM,0.5376,Recurring Fixing/Reparing Potholes — Horamavu (2019–2021),17,Horamavu,"[2019, 2020, 2021]",52.9,9,2,BBMP,geo_dbscan,0.9
+CASE-WARD-093-ROAD_GEN,MEDIUM,0.5366,Recurring Need Lane Markings/Street Name/Road Signages — Vasanth Nagar (2019–2022),5,Vasanth Nagar,"[2019, 2020, 2021, 2022]",100.0,5,0,BBMP,ward_temporal,0.6
+CASE-GEO-0115,MEDIUM,0.5338,Recurring Fixing/Reparing Potholes — Horamavu (2019–2021),13,Horamavu,"[2019, 2020, 2021]",76.9,10,0,BBMP,geo_dbscan,0.85
+CASE-GEO-0040,MEDIUM,0.5334,Recurring Tarring Or Asphalting Of Existing Road — Byrasandra (2019–2021),15,Byrasandra,"[2019, 2020, 2021]",66.7,10,0,BBMP,geo_dbscan,0.85
+CASE-WARD-160-FIXINGR,MEDIUM,0.5324,Recurring Fixing/Reparing Potholes — Rajarajeshwari Nagar (2019–2022),17,Rajarajeshwari Nagar,"[2019, 2020, 2021, 2022]",47.1,8,0,BBMP,ward_temporal,0.65
+CASE-WARD-025-TARRING_,MEDIUM,0.5323,Recurring Tarring Or Asphalting Of Mud/Kutcha/Unpaved Road — Horamavu (2019–2022),8,Horamavu,"[2019, 2020, 2021, 2022]",87.5,7,0,BBMP,ward_temporal,0.6
+CASE-GEO-0093,MEDIUM,0.5279,Recurring Fixing/Reparing Potholes — Begur (2019–2021),18,Begur,"[2019, 2020, 2021]",44.4,8,0,BBMP,geo_dbscan,0.85
+CASE-GEO-0176,MEDIUM,0.5277,Recurring Fixing/Reparing Potholes — Maruthi Seva Nagar (2019–2022),14,Maruthi Seva Nagar,"[2019, 2020, 2021, 2022]",64.3,9,0,BBMP,geo_dbscan,0.85
+CASE-WARD-054-FIXINGR,MEDIUM,0.5276,Recurring Fixing/Reparing Potholes — Hoodi (2019–2022),14,Hoodi,"[2019, 2020, 2021, 2022]",57.1,8,2,BBMP,ward_temporal,0.7
+CASE-WARD-083-ROAD_GEN,MEDIUM,0.5273,Recurring Need Roadside Rainwater Harvesting System — Kadugodi (2019–2022),5,Kadugodi,"[2019, 2020, 2022]",100.0,5,0,BBMP,ward_temporal,0.6
+CASE-WARD-195-FIXINGR,MEDIUM,0.5267,Recurring Fixing/Reparing Potholes — Konankunte (2019–2022),6,Konankunte,"[2019, 2020, 2022]",100.0,6,1,BBMP,ward_temporal,0.65
+CASE-WARD-184-TARRING_,MEDIUM,0.5266,Recurring Tarring Or Asphalting Of Mud/Kutcha/Unpaved Road — Uttarahalli (2019–2022),6,Uttarahalli,"[2019, 2020, 2022]",83.3,5,0,BBMP,ward_temporal,0.6
+CASE-GEO-0049,MEDIUM,0.526,Recurring Fixing/Reparing Potholes — Koramangala (2019–2022),18,Koramangala,"[2019, 2020, 2021, 2022]",38.9,7,0,BBMP,geo_dbscan,0.75
+CASE-WARD-150-ROAD_GEN,MEDIUM,0.52,Recurring Construction of new footpaths — Bellanduru (2019–2022),12,Bellanduru,"[2019, 2020, 2021, 2022]",75.0,9,0,BBMP,ward_temporal,0.65
+CASE-GEO-0145,MEDIUM,0.5191,Recurring Tarring Or Asphalting Of Existing Road — Ramamurthy Nagar (2019–2022),10,Ramamurthy Nagar,"[2019, 2021, 2022]",50.0,5,1,BBMP,geo_dbscan,0.9
+CASE-GEO-0169,MEDIUM,0.5191,Recurring Fixing/Reparing Potholes — Vasanthapura (2019–2021),6,Vasanthapura,"[2019, 2020, 2021]",100.0,6,0,BBMP,geo_dbscan,0.8
+CASE-WARD-198-TARRING_,MEDIUM,0.5182,Recurring Tarring Or Asphalting Of Mud/Kutcha/Unpaved Road — Hemmigepura (2020–2022),5,Hemmigepura,"[2020, 2021, 2022]",100.0,5,0,BBMP,ward_temporal,0.6
+CASE-GEO-0053,MEDIUM,0.5162,Recurring Fixing/Reparing Potholes — Bellanduru (2019–2020),29,Bellanduru,"[2019, 2020]",20.7,6,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0059,MEDIUM,0.5161,Recurring Tarring Or Asphalting Of Existing Road — New Tippasandra (2019–2021),13,New Tippasandra,"[2019, 2020, 2021]",38.5,5,0,BBMP,geo_dbscan,0.75
+CASE-GEO-0156,MEDIUM,0.5141,Recurring Tarring Or Asphalting Of Existing Road — Hemmigepura (2019–2021),8,Hemmigepura,"[2019, 2020, 2021]",87.5,7,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0168,MEDIUM,0.5141,Recurring Fixing/Reparing Potholes — Ganesh Mandir (2019–2022),8,Ganesh Mandir,"[2019, 2020, 2021, 2022]",87.5,7,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0046,MEDIUM,0.5134,Recurring Fixing/Reparing Potholes — Jayanagar East (2019–2022),18,Jayanagar East,"[2019, 2020, 2022]",38.9,7,1,BBMP,geo_dbscan,0.8
+CASE-WARD-129-FIXINGR,MEDIUM,0.5128,Recurring Fixing/Reparing Potholes — Jnana Bharathi (2019–2022),7,Jnana Bharathi,"[2019, 2020, 2021, 2022]",71.4,5,0,BBMP,ward_temporal,0.6
+CASE-GEO-0211,MEDIUM,0.5091,Recurring Fixing/Reparing Potholes — Azad Nagar (2019–2021),5,Azad Nagar,"[2019, 2020, 2021]",100.0,5,0,BBMP,geo_dbscan,0.8
+CASE-WARD-025-CONSTRUC,MEDIUM,0.5091,Recurring Construction Of Roadside Drains — Horamavu (2020–2022),5,Horamavu,"[2020, 2021, 2022]",100.0,5,0,BBMP,ward_temporal,0.6
+CASE-GEO-0025,MEDIUM,0.5088,Recurring Fixing/Reparing Potholes — Yelchenahalli (2019–2021),13,Yelchenahalli,"[2019, 2020, 2021]",46.2,6,0,BBMP,geo_dbscan,0.85
+CASE-GEO-0147,MEDIUM,0.5072,Recurring Fixing/Reparing Potholes — Ramamurthy Nagar (2019–2020),16,Ramamurthy Nagar,"[2019, 2020]",56.2,9,0,BBMP,geo_dbscan,0.7
+CASE-GEO-0006,MEDIUM,0.5054,Recurring Fixing/Reparing Potholes — Konena Agrahara (2019–2021),11,Konena Agrahara,"[2019, 2020, 2021]",63.6,7,0,BBMP,geo_dbscan,0.85
+CASE-WARD-198-FIXINGR,MEDIUM,0.5054,Recurring Fixing/Reparing Potholes — Hemmigepura (2019–2022),11,Hemmigepura,"[2019, 2020, 2021, 2022]",63.6,7,0,BBMP,ward_temporal,0.65
+CASE-WARD-129-TARRING_,MEDIUM,0.5024,Recurring Tarring Or Asphalting Of Existing Road — Jnana Bharathi (2019–2022),7,Jnana Bharathi,"[2019, 2020, 2021, 2022]",57.1,4,0,BBMP,ward_temporal,0.6
+CASE-GEO-0001,MEDIUM,0.501,Recurring Fixing/Reparing Potholes — Ramamurthy Nagar (2019–2021),11,Ramamurthy Nagar,"[2019, 2020, 2021]",36.4,4,1,BBMP,geo_dbscan,0.8
+CASE-GEO-0022,MEDIUM,0.4991,Recurring Fixing/Reparing Potholes — Dattatreya Temple (2019–2022),10,Dattatreya Temple,"[2019, 2020, 2021, 2022]",70.0,7,0,BBMP,geo_dbscan,0.85
+CASE-GEO-0146,MEDIUM,0.4973,Recurring Tarring Or Asphalting Of Existing Road — Koramangala (2019–2021),10,Koramangala,"[2019, 2020, 2021]",60.0,6,0,BBMP,geo_dbscan,0.85
+CASE-WARD-072-FIXINGR,MEDIUM,0.4964,Recurring Fixing/Reparing Potholes — Herohalli (2019–2022),5,Herohalli,"[2019, 2021, 2022]",80.0,4,0,BBMP,ward_temporal,0.6
+CASE-WARD-026-TARRING_,MEDIUM,0.4949,Recurring Tarring Or Asphalting Of Existing Road — Ramamurthy Nagar (2019–2020),24,Ramamurthy Nagar,"[2019, 2020]",12.5,3,1,BBMP,ward_temporal,0.5
+CASE-GEO-0112,MEDIUM,0.4936,Recurring Tarring Or Asphalting Of Existing Road — Shettihalli (2019–2022),9,Shettihalli,"[2019, 2020, 2022]",66.7,6,1,BBMP,geo_dbscan,0.85
+CASE-WARD-084-TARRING_,MEDIUM,0.4936,Recurring Tarring Or Asphalting Of Existing Road — Hagadur (2019–2022),9,Hagadur,"[2019, 2020, 2021, 2022]",66.7,6,1,BBMP,ward_temporal,0.65
+CASE-WARD-007-TARRING_,MEDIUM,0.4933,Recurring Tarring Or Asphalting Of Existing Road — Byatarayanapura (2019–2022),7,Byatarayanapura,"[2019, 2021, 2022]",57.1,4,0,BBMP,ward_temporal,0.6
+CASE-GEO-0127,MEDIUM,0.492,Recurring Fixing/Reparing Potholes — Bommanahalli (2019–2022),14,Bommanahalli,"[2019, 2020, 2021, 2022]",42.9,6,1,BBMP,geo_dbscan,0.9
+CASE-GEO-0164,MEDIUM,0.4918,Recurring Tarring Or Asphalting Of Existing Road — Shantala Nagar (2019–2022),13,Shantala Nagar,"[2019, 2020, 2021, 2022]",30.8,4,1,BBMP,geo_dbscan,0.8
+CASE-GEO-0181,MEDIUM,0.4916,Recurring Fixing/Reparing Potholes — Domlur (2019–2022),9,Domlur,"[2019, 2020, 2021, 2022]",66.7,6,0,BBMP,geo_dbscan,0.8
+CASE-WARD-192-ROAD_GEN,MEDIUM,0.4916,Recurring Management Of Hawkers and Vendors — Begur (2019–2021),9,Begur,"[2019, 2020, 2021]",66.7,6,0,BBMP,ward_temporal,0.6
+CASE-WARD-196-FIXINGR,MEDIUM,0.4898,Recurring Fixing/Reparing Potholes — Anjanapura (2019–2022),12,Anjanapura,"[2019, 2020, 2021, 2022]",41.7,5,0,BBMP,ward_temporal,0.65
+CASE-GEO-0104,MEDIUM,0.4887,Recurring Tarring Or Asphalting Of Existing Road — Jeevanbhima Nagar (2019–2022),14,Jeevanbhima Nagar,"[2019, 2020, 2021, 2022]",35.7,5,0,BBMP,geo_dbscan,0.75
+CASE-GEO-0073,MEDIUM,0.4879,Recurring Tarring Or Asphalting Of Existing Road — Uttarahalli (2019–2021),9,Uttarahalli,"[2019, 2020, 2021]",44.4,4,0,BBMP,geo_dbscan,0.8
+CASE-WARD-194-TARRING_,MEDIUM,0.4877,Recurring Tarring Or Asphalting Of Existing Road — Gottigere (2019–2022),16,Gottigere,"[2019, 2020, 2022]",31.2,5,1,BBMP,ward_temporal,0.6
+CASE-WARD-190-FIXINGR,MEDIUM,0.4835,Recurring Fixing/Reparing Potholes — Mangamannapalya (2019–2022),18,Mangamannapalya,"[2019, 2020, 2021, 2022]",22.2,4,0,BBMP,ward_temporal,0.55
+CASE-GEO-0079,MEDIUM,0.4825,Recurring Fixing/Reparing Potholes — Bellanduru (2019–2021),9,Bellanduru,"[2019, 2020, 2021]",55.6,5,2,BBMP,geo_dbscan,0.85
+CASE-WARD-198-TARRING_,MEDIUM,0.4815,Recurring Tarring Or Asphalting Of Existing Road — Hemmigepura (2019–2021),13,Hemmigepura,"[2019, 2020, 2021]",46.2,6,0,BBMP,ward_temporal,0.65
+CASE-WARD-193-FIXINGR,MEDIUM,0.4807,Recurring Fixing/Reparing Potholes — Arekere (2019–2021),15,Arekere,"[2019, 2020, 2021]",26.7,4,0,BBMP,ward_temporal,0.55
+CASE-GEO-0185,MEDIUM,0.48,Recurring Fixing/Reparing Potholes — Kodigehalli (2019–2022),8,Kodigehalli,"[2019, 2020, 2021, 2022]",75.0,6,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0194,MEDIUM,0.48,Recurring Tarring Or Asphalting Of Existing Road — Shakambari Nagar (2019–2021),8,Shakambari Nagar,"[2019, 2020, 2021]",75.0,6,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0205,MEDIUM,0.48,Recurring Tarring Or Asphalting Of Existing Road — Agaram (2019–2021),5,Agaram,"[2019, 2020, 2021]",80.0,4,1,BBMP,geo_dbscan,0.85
+CASE-GEO-0045,MEDIUM,0.4791,Recurring Tarring Or Asphalting Of Existing Road — Vasanthapura (2019–2022),12,Vasanthapura,"[2019, 2020, 2022]",50.0,6,0,BBMP,geo_dbscan,0.85
+CASE-WARD-191-FLOODING,MEDIUM,0.4791,Recurring Flooding/Waterlogging Of Roads And Footpaths — Singasandra (2019–2022),5,Singasandra,"[2019, 2021, 2022]",60.0,3,0,BBMP,ward_temporal,0.6
+CASE-WARD-082-TARRING_,MEDIUM,0.4783,Recurring Tarring Or Asphalting Of Existing Road — Garudachar Palya (2019–2022),11,Garudachar Palya,"[2019, 2020, 2021, 2022]",45.5,5,0,BBMP,ward_temporal,0.65
+CASE-GEO-0118,MEDIUM,0.4782,Recurring Fixing/Reparing Potholes — Sarvagna Nagar (2019–2022),5,Sarvagna Nagar,"[2019, 2021, 2022]",80.0,4,0,BBMP,geo_dbscan,0.8
+CASE-WARD-054-CONSTRUC,MEDIUM,0.4766,Recurring Construction Of Roadside Drains — Hoodi (2020–2022),6,Hoodi,"[2020, 2021, 2022]",83.3,5,0,BBMP,ward_temporal,0.6
+CASE-WARD-016-FIXINGR,MEDIUM,0.4766,Recurring Fixing/Reparing Potholes — Jalahalli (2020–2022),6,Jalahalli,"[2020, 2021, 2022]",83.3,5,0,BBMP,ward_temporal,0.6
+CASE-WARD-194-FIXINGR,MEDIUM,0.4757,Recurring Fixing/Reparing Potholes — Gottigere (2019–2021),15,Gottigere,"[2019, 2020, 2021]",33.3,5,0,BBMP,ward_temporal,0.55
+CASE-GEO-0141,MEDIUM,0.4745,Recurring Fixing/Reparing Potholes — Begur (2019–2021),14,Begur,"[2019, 2020, 2021]",28.6,4,0,BBMP,geo_dbscan,0.75
+CASE-GEO-0108,MEDIUM,0.4732,Recurring Fixing/Reparing Potholes — Singasandra (2019–2021),8,Singasandra,"[2019, 2020, 2021]",37.5,3,0,BBMP,geo_dbscan,0.7
+CASE-WARD-038-FIXINGR,MEDIUM,0.4732,Recurring Fixing/Reparing Potholes — HMT (2019–2022),8,HMT,"[2019, 2020, 2021, 2022]",62.5,5,0,BBMP,ward_temporal,0.6
+CASE-GEO-0204,MEDIUM,0.4721,Recurring Tarring Or Asphalting Of Mud/Kutcha/Unpaved Road — Hagadur (2020–2021),6,Hagadur,"[2020, 2021]",100.0,6,0,BBMP,geo_dbscan,0.65
+CASE-WARD-040-TARRING_,MEDIUM,0.4714,Recurring Tarring Or Asphalting Of Existing Road — Dodda Bidarakallu (2019–2021),9,Dodda Bidarakallu,"[2019, 2020, 2021]",55.6,5,1,BBMP,ward_temporal,0.65
+CASE-GEO-0188,MEDIUM,0.4707,Recurring Tarring Or Asphalting Of Existing Road — Chikallasandra (2019–2021),6,Chikallasandra,"[2019, 2020, 2021]",66.7,4,0,BBMP,geo_dbscan,0.8
+CASE-WARD-150-FLOODING,MEDIUM,0.4707,Recurring Flooding/Waterlogging Of Roads And Footpaths — Bellanduru (2019–2022),6,Bellanduru,"[2019, 2021, 2022]",66.7,4,0,BBMP,ward_temporal,0.6
+CASE-WARD-009-TARRING_,MEDIUM,0.47,Recurring Tarring Or Asphalting Of Existing Road — Vidyaranyapura (2019–2021),10,Vidyaranyapura,"[2019, 2020, 2021]",60.0,6,0,BBMP,ward_temporal,0.65
+CASE-GEO-0135,MEDIUM,0.4694,Recurring Tarring Or Asphalting Of Existing Road — Begur (2019–2021),9,Begur,"[2019, 2020, 2021]",55.6,5,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0144,MEDIUM,0.4692,Recurring Tarring Or Asphalting Of Existing Road — Bharathi Nagar (2019–2021),11,Bharathi Nagar,"[2019, 2020, 2021]",45.5,5,0,BBMP,geo_dbscan,0.85
+CASE-GEO-0157,MEDIUM,0.4692,Recurring Fixing/Reparing Potholes — J P Park (2019–2022),11,J P Park,"[2019, 2020, 2021, 2022]",45.5,5,0,BBMP,geo_dbscan,0.85
+CASE-WARD-083-TARRING_,MEDIUM,0.4692,Recurring Tarring Or Asphalting Of Existing Road — Kadugodi (2019–2022),11,Kadugodi,"[2019, 2020, 2022]",45.5,5,1,BBMP,ward_temporal,0.7
+CASE-GEO-0096,MEDIUM,0.4691,Recurring Fixing/Reparing Potholes — Rajagopalanagar (2019–2021),5,Rajagopalanagar,"[2019, 2020, 2021]",80.0,4,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0069,MEDIUM,0.4675,Recurring Tarring Or Asphalting Of Existing Road — Jogupalya (2019–2022),8,Jogupalya,"[2019, 2020, 2022]",62.5,5,1,BBMP,geo_dbscan,0.85
+CASE-GEO-0084,MEDIUM,0.4666,Recurring Tarring Or Asphalting Of Mud/Kutcha/Unpaved Road — Chikallasandra (2019–2021),15,Chikallasandra,"[2019, 2020, 2021]",33.3,5,0,BBMP,geo_dbscan,0.75
+CASE-GEO-0088,MEDIUM,0.4662,Recurring Fixing/Reparing Potholes — Varthur (2019–2022),16,Varthur,"[2019, 2020, 2022]",25.0,4,1,BBMP,geo_dbscan,0.8
+CASE-GEO-0103,MEDIUM,0.4658,Recurring Tarring Or Asphalting Of Existing Road — Ulsoor (2019–2021),13,Ulsoor,"[2019, 2020, 2021]",23.1,3,0,BBMP,geo_dbscan,0.75
+CASE-WARD-007-FIXINGR,MEDIUM,0.4649,Recurring Fixing/Reparing Potholes — Byatarayanapura (2019–2021),7,Byatarayanapura,"[2019, 2020, 2021]",42.9,3,0,BBMP,ward_temporal,0.6
+CASE-WARD-149-TARRING_,MEDIUM,0.4648,Recurring Tarring Or Asphalting Of Mud/Kutcha/Unpaved Road — Varthur (2020–2021),8,Varthur,"[2020, 2021]",100.0,8,0,BBMP,ward_temporal,0.45
+CASE-WARD-110-FIXINGR,MEDIUM,0.4631,Recurring Fixing/Reparing Potholes — Sampangiram Nagar (2019–2022),8,Sampangiram Nagar,"[2019, 2020, 2021, 2022]",50.0,4,0,BBMP,ward_temporal,0.6
+CASE-GEO-0170,MEDIUM,0.4629,Recurring Tarring Or Asphalting Of Existing Road — Ramamurthy Nagar (2019–2020),11,Ramamurthy Nagar,"[2019, 2020]",54.5,6,0,BBMP,geo_dbscan,0.7
+CASE-GEO-0215,MEDIUM,0.4628,Recurring Tarring Or Asphalting Of Existing Road — Shankar Matt (2019–2021),7,Shankar Matt,"[2019, 2020, 2021]",71.4,5,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0074,MEDIUM,0.4625,Recurring Tarring Or Asphalting Of Existing Road — Basavanapura (2019–2022),12,Basavanapura,"[2019, 2020, 2022]",41.7,5,0,BBMP,geo_dbscan,0.85
+CASE-WARD-082-FIXINGR,MEDIUM,0.4617,Recurring Fixing/Reparing Potholes — Garudachar Palya (2019–2022),12,Garudachar Palya,"[2019, 2020, 2021, 2022]",41.7,5,1,BBMP,ward_temporal,0.7
+CASE-WARD-040-FIXINGR,MEDIUM,0.4573,Recurring Fixing/Reparing Potholes — Dodda Bidarakallu (2019–2021),8,Dodda Bidarakallu,"[2019, 2020, 2021]",50.0,4,0,BBMP,ward_temporal,0.6
+CASE-GEO-0193,MEDIUM,0.4564,Recurring Fixing/Reparing Potholes — Begur (2019–2022),5,Begur,"[2019, 2021, 2022]",60.0,3,0,BBMP,geo_dbscan,0.8
+CASE-WARD-192-TARRING_,MEDIUM,0.455,Recurring Tarring Or Asphalting Of Mud/Kutcha/Unpaved Road — Begur (2019–2022),8,Begur,"[2019, 2020, 2021, 2022]",62.5,5,0,BBMP,ward_temporal,0.6
+CASE-GEO-0013,MEDIUM,0.4549,Recurring Tarring Or Asphalting Of Existing Road — Yelchenahalli (2019–2020),17,Yelchenahalli,"[2019, 2020]",47.1,8,1,BBMP,geo_dbscan,0.75
+CASE-GEO-0162,MEDIUM,0.4548,Recurring Fixing/Reparing Potholes — Ramamurthy Nagar (2019–2021),12,Ramamurthy Nagar,"[2019, 2021]",50.0,6,0,BBMP,geo_dbscan,0.7
+CASE-WARD-188-FIXINGR,MEDIUM,0.4525,Recurring Fixing/Reparing Potholes — Bilekahalli (2019–2022),6,Bilekahalli,"[2019, 2020, 2021, 2022]",66.7,4,0,BBMP,ward_temporal,0.6
+CASE-GEO-0125,MEDIUM,0.4524,Recurring Fixing/Reparing Potholes — Ganga Nagar (2019–2022),7,Ganga Nagar,"[2019, 2020, 2021, 2022]",57.1,4,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0078,MEDIUM,0.4516,Recurring Fixing/Reparing Potholes — Bilekahalli (2019–2021),8,Bilekahalli,"[2019, 2020, 2021]",50.0,4,1,BBMP,geo_dbscan,0.85
+CASE-WARD-187-FIXINGR,MEDIUM,0.451,Recurring Fixing/Reparing Potholes — Puttenahalli (2019–2022),11,Puttenahalli,"[2019, 2020, 2021, 2022]",36.4,4,0,BBMP,ward_temporal,0.55
+CASE-GEO-0120,MEDIUM,0.45,Recurring Fixing/Reparing Potholes — Govindaraja Nagar (2019–2021),10,Govindaraja Nagar,"[2019, 2020, 2021]",40.0,4,0,BBMP,geo_dbscan,0.85
+CASE-GEO-0132,MEDIUM,0.4491,Recurring Fixing/Reparing Potholes — HBR Layout (2019–2022),10,HBR Layout,"[2019, 2021, 2022]",40.0,4,1,BBMP,geo_dbscan,0.9
+CASE-GEO-0030,MEDIUM,0.4472,Recurring Fixing/Reparing Potholes — Bellanduru (2019–2021),14,Bellanduru,"[2019, 2020, 2021]",28.6,4,0,BBMP,geo_dbscan,0.75
+CASE-WARD-197-FIXINGR,MEDIUM,0.447,Recurring Fixing/Reparing Potholes — Vasanthapura (2019–2021),9,Vasanthapura,"[2019, 2020, 2021]",44.4,4,0,BBMP,ward_temporal,0.6
+CASE-GEO-0139,MEDIUM,0.4457,Recurring Fixing/Reparing Potholes — Hosakerehalli (2019–2022),12,Hosakerehalli,"[2019, 2020, 2022]",33.3,4,0,BBMP,geo_dbscan,0.75
+CASE-WARD-028-TARRING_,MEDIUM,0.4433,Recurring Tarring Or Asphalting Of Existing Road — Kammanahalli (2019–2022),7,Kammanahalli,"[2019, 2021, 2022]",57.1,4,0,BBMP,ward_temporal,0.6
+CASE-WARD-187-TARRING_,MEDIUM,0.4433,Recurring Tarring Or Asphalting Of Existing Road — Puttenahalli (2019–2021),7,Puttenahalli,"[2019, 2020, 2021]",57.1,4,0,BBMP,ward_temporal,0.6
+CASE-GEO-0092,MEDIUM,0.4419,Recurring Tarring Or Asphalting Of Existing Road — Kacharkanahalli (2019–2022),11,Kacharkanahalli,"[2019, 2020, 2022]",36.4,4,0,BBMP,geo_dbscan,0.75
+CASE-GEO-0178,MEDIUM,0.4414,Recurring Fixing/Reparing Potholes — Hagadur (2019–2021),8,Hagadur,"[2019, 2020, 2021]",37.5,3,0,BBMP,geo_dbscan,0.7
+CASE-GEO-0111,MEDIUM,0.44,Recurring Fixing/Reparing Potholes — Puttenahalli (2019–2021),5,Puttenahalli,"[2019, 2020, 2021]",60.0,3,1,BBMP,geo_dbscan,0.85
+CASE-GEO-0192,MEDIUM,0.44,Recurring Fixing/Reparing Potholes — Begur (2019–2021),5,Begur,"[2019, 2020, 2021]",60.0,3,1,BBMP,geo_dbscan,0.85
+CASE-WARD-012-TARRING_,MEDIUM,0.4391,Recurring Tarring Or Asphalting Of Existing Road — Shettihalli (2019–2021),8,Shettihalli,"[2019, 2020, 2021]",50.0,4,0,BBMP,ward_temporal,0.6
+CASE-GEO-0173,MEDIUM,0.4382,Recurring Tarring Or Asphalting Of Existing Road — Dodda Nekkundi (2019–2021),5,Dodda Nekkundi,"[2019, 2020, 2021]",60.0,3,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0213,MEDIUM,0.4382,Recurring Fixing/Reparing Potholes — Horamavu (2019–2021),5,Horamavu,"[2019, 2020, 2021]",60.0,3,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0038,MEDIUM,0.4379,Recurring Tarring Or Asphalting Of Existing Road — Begur (2019–2021),9,Begur,"[2019, 2020, 2021]",44.4,4,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0153,MEDIUM,0.4372,Recurring Fixing/Reparing Potholes — C V Raman Nagar (2019–2020),4,C V Raman Nagar,"[2019, 2020]",75.0,3,1,BBMP,geo_dbscan,0.6
+CASE-GEO-0129,MEDIUM,0.4358,Recurring Fixing/Reparing Potholes — C V Raman Nagar (2019–2022),6,C V Raman Nagar,"[2019, 2020, 2022]",50.0,3,1,BBMP,geo_dbscan,0.85
+CASE-GEO-0054,MEDIUM,0.4353,Recurring Tarring Or Asphalting Of Existing Road — Begur (2019–2021),7,Begur,"[2019, 2021]",85.7,6,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0117,MEDIUM,0.4353,Recurring Fixing/Reparing Potholes — Gayathri Nagar (2019–2021),13,Gayathri Nagar,"[2019, 2020, 2021]",23.1,3,0,BBMP,geo_dbscan,0.75
+CASE-GEO-0208,MEDIUM,0.4348,Recurring Fixing/Reparing Potholes — Ganga Nagar (2020–2022),5,Ganga Nagar,"[2020, 2022]",100.0,5,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0031,MEDIUM,0.4344,Recurring Tarring Or Asphalting Of Existing Road — Kadu Malleshwara (2019–2022),9,Kadu Malleshwara,"[2019, 2020, 2021, 2022]",22.2,2,0,BBMP,geo_dbscan,0.7
+CASE-GEO-0171,MEDIUM,0.4342,Recurring Removal Of Roadside Debris (Construction Material) — Hoysala Nagar (2019–2021),7,Hoysala Nagar,"[2019, 2020, 2021]",57.1,4,0,BBMP,geo_dbscan,0.8
+CASE-WARD-149-TARRING_,MEDIUM,0.4342,Recurring Tarring Or Asphalting Of Existing Road — Varthur (2019–2021),7,Varthur,"[2019, 2020, 2021]",57.1,4,0,BBMP,ward_temporal,0.6
+CASE-GEO-0158,MEDIUM,0.434,Recurring Tarring Or Asphalting Of Existing Road — Shanthi Nagar (2019–2021),7,Shanthi Nagar,"[2019, 2020, 2021]",28.6,2,1,BBMP,geo_dbscan,0.75
+CASE-GEO-0012,MEDIUM,0.4328,Recurring Tarring Or Asphalting Of Existing Road — Kadugodi (2019–2021),11,Kadugodi,"[2019, 2020, 2021]",36.4,4,0,BBMP,geo_dbscan,0.75
+CASE-GEO-0098,MEDIUM,0.432,Recurring Fixing/Reparing Potholes — Kadugodi (2019–2020),22,Kadugodi,"[2019, 2020]",13.6,3,0,BBMP,geo_dbscan,0.65
+CASE-WARD-094-TARRING_,MEDIUM,0.4317,Recurring Tarring Or Asphalting Of Existing Road — Gandhi Nagar (2019–2021),7,Gandhi Nagar,"[2019, 2020, 2021]",28.6,2,0,BBMP,ward_temporal,0.5
+CASE-WARD-001-FLOODING,MEDIUM,0.4267,Recurring Flooding/Waterlogging Of Roads And Footpaths — Kempegowda (2019–2020),6,Kempegowda,"[2019, 2020]",66.7,4,1,BBMP,ward_temporal,0.5
+CASE-WARD-178-FIXINGR,MEDIUM,0.4248,Recurring Fixing/Reparing Potholes — Sarakki (2019–2022),9,Sarakki,"[2019, 2020, 2021, 2022]",33.3,3,0,BBMP,ward_temporal,0.5
+CASE-GEO-0028,MEDIUM,0.4232,Recurring Fixing/Reparing Potholes — Kaveripura (2019–2022),8,Kaveripura,"[2019, 2020, 2021, 2022]",37.5,3,0,BBMP,geo_dbscan,0.7
+CASE-GEO-0087,MEDIUM,0.4232,Recurring Fixing/Reparing Potholes — Agaram (2019–2021),8,Agaram,"[2019, 2020, 2021]",37.5,3,0,BBMP,geo_dbscan,0.7
+CASE-GEO-0172,MEDIUM,0.4221,Recurring Fixing/Reparing Potholes — Basavanapura (2019–2021),5,Basavanapura,"[2019, 2021]",80.0,4,0,BBMP,geo_dbscan,0.65
+CASE-WARD-111-TARRING_,MEDIUM,0.4207,Recurring Tarring Or Asphalting Of Existing Road — Shantala Nagar (2019–2021),11,Shantala Nagar,"[2019, 2020, 2021]",9.1,1,0,BBMP,ward_temporal,0.55
+CASE-GEO-0124,MEDIUM,0.4191,Recurring Fixing/Reparing Potholes — Vasanthapura (2019–2021),10,Vasanthapura,"[2019, 2020, 2021]",30.0,3,0,BBMP,geo_dbscan,0.75
+CASE-GEO-0174,MEDIUM,0.4191,Recurring Fixing/Reparing Potholes — Horamavu (2019–2022),6,Horamavu,"[2019, 2020, 2021, 2022]",50.0,3,0,BBMP,geo_dbscan,0.8
+CASE-WARD-142-FIXINGR,MEDIUM,0.4191,Recurring Fixing/Reparing Potholes — Sunkenahalli (2019–2022),6,Sunkenahalli,"[2019, 2020, 2021, 2022]",50.0,3,0,BBMP,ward_temporal,0.6
+CASE-GEO-0216,MEDIUM,0.4167,Recurring Fixing/Reparing Potholes — Kodigehalli (2020–2022),5,Kodigehalli,"[2020, 2022]",100.0,5,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0190,MEDIUM,0.4164,Recurring Tarring Or Asphalting Of Existing Road — Varthur (2019–2021),5,Varthur,"[2019, 2020, 2021]",40.0,2,0,BBMP,geo_dbscan,0.8
+CASE-WARD-081-FIXINGR,MEDIUM,0.4141,Recurring Fixing/Reparing Potholes — Vijnana Nagar (2019–2022),8,Vijnana Nagar,"[2019, 2020, 2022]",37.5,3,0,BBMP,ward_temporal,0.5
+CASE-WARD-053-FIXINGR,MEDIUM,0.4141,Recurring Fixing/Reparing Potholes — Basavanapura (2019–2022),8,Basavanapura,"[2019, 2020, 2022]",37.5,3,0,BBMP,ward_temporal,0.5
+CASE-GEO-0151,MEDIUM,0.4136,Recurring Tarring Or Asphalting Of Existing Road — Bellanduru (2019–2021),7,Bellanduru,"[2019, 2020, 2021]",28.6,2,0,BBMP,geo_dbscan,0.7
+CASE-GEO-0196,MEDIUM,0.4134,Recurring Fixing/Reparing Potholes — Kottigepalya (2019–2022),3,Kottigepalya,"[2019, 2020, 2022]",66.7,2,0,BBMP,geo_dbscan,0.7
+CASE-GEO-0149,MEDIUM,0.4091,Recurring Fixing/Reparing Potholes — Bellanduru (2019–2022),5,Bellanduru,"[2019, 2021, 2022]",40.0,2,1,BBMP,geo_dbscan,0.85
+CASE-WARD-189-FIXINGR,MEDIUM,0.4086,Recurring Fixing/Reparing Potholes — Hongasandra (2019–2020),11,Hongasandra,"[2019, 2020]",36.4,4,0,BBMP,ward_temporal,0.4
+CASE-GEO-0183,MEDIUM,0.4039,Recurring Fixing/Reparing Potholes — Kodigehalli (2019–2021),6,Kodigehalli,"[2019, 2020, 2021]",33.3,2,0,BBMP,geo_dbscan,0.7
+CASE-WARD-087-TARRING_,MEDIUM,0.4038,Recurring Tarring Or Asphalting Of Existing Road — HAL Airport (2019–2020),11,HAL Airport,"[2019, 2020]",54.5,6,1,BBMP,ward_temporal,0.55
+CASE-WARD-086-TARRING_,MEDIUM,0.4033,Recurring Tarring Or Asphalting Of Existing Road — Marathahalli (2019–2020),5,Marathahalli,"[2019, 2020]",60.0,3,1,BBMP,ward_temporal,0.5
+CASE-GEO-0064,MEDIUM,0.403,Recurring Tarring Or Asphalting Of Existing Road — Ramamurthy Nagar (2019–2022),10,Ramamurthy Nagar,"[2019, 2022]",20.0,2,1,BBMP,geo_dbscan,0.65
+CASE-GEO-0105,MEDIUM,0.4026,Recurring Fixing/Reparing Potholes — Deepanjali Nagar (2019–2021),9,Deepanjali Nagar,"[2019, 2020, 2021]",22.2,2,0,BBMP,geo_dbscan,0.7
+CASE-WARD-085-FIXINGR,MEDIUM,0.4004,Recurring Fixing/Reparing Potholes — Dodda Nekkundi (2019–2020),21,Dodda Nekkundi,"[2019, 2020]",9.5,2,1,BBMP,ward_temporal,0.5
+CASE-WARD-027-FIXINGR,MEDIUM,0.3996,Recurring Fixing/Reparing Potholes — Banasavadi (2019–2021),8,Banasavadi,"[2019, 2021]",37.5,3,0,BBMP,ward_temporal,0.35
+CASE-WARD-058-TARRING_,MEDIUM,0.3991,Recurring Tarring Or Asphalting Of Existing Road — New Tippasandra (2019–2021),5,New Tippasandra,"[2019, 2020, 2021]",20.0,1,0,BBMP,ward_temporal,0.5
+CASE-GEO-0110,MEDIUM,0.3987,Recurring Fixing/Reparing Potholes — Vishwanath Nagenahalli (2019–2020),12,Vishwanath Nagenahalli,"[2019, 2020]",33.3,4,0,BBMP,geo_dbscan,0.6
+CASE-GEO-0080,MEDIUM,0.3982,Recurring Fixing/Reparing Potholes — Arekere (2019–2021),8,Arekere,"[2019, 2020, 2021]",25.0,2,0,BBMP,geo_dbscan,0.7
+CASE-WARD-057-FIXINGR,MEDIUM,0.3976,Recurring Fixing/Reparing Potholes — C V Raman Nagar (2019–2021),7,C V Raman Nagar,"[2019, 2021]",57.1,4,2,BBMP,ward_temporal,0.5
+CASE-GEO-0068,MEDIUM,0.3973,Recurring Tarring Or Asphalting Of Existing Road — Atturu (2019–2020),15,Atturu,"[2019, 2020]",26.7,4,0,BBMP,geo_dbscan,0.6
+CASE-GEO-0199,MEDIUM,0.3967,Recurring Fixing/Reparing Potholes — Marappana Palya (2020–2022),8,Marappana Palya,"[2020, 2022]",75.0,6,0,BBMP,geo_dbscan,0.65
+CASE-WARD-174-TARRING_,MEDIUM,0.396,Recurring Tarring Or Asphalting Of Existing Road — HSR Layout (2019–2020),13,HSR Layout,"[2019, 2020]",23.1,3,1,BBMP,ward_temporal,0.45
+CASE-GEO-0163,MEDIUM,0.3958,Recurring Fixing/Reparing Potholes — Malleswaram (2019–2020),5,Malleswaram,"[2019, 2020]",60.0,3,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0100,MEDIUM,0.3954,Recurring Tarring Or Asphalting Of Existing Road — Vijnana Nagar (2019–2022),7,Vijnana Nagar,"[2019, 2021, 2022]",28.6,2,0,BBMP,geo_dbscan,0.7
+CASE-WARD-088-FIXINGR,MEDIUM,0.3948,Recurring Fixing/Reparing Potholes — Jeevanbhima Nagar (2019–2021),6,Jeevanbhima Nagar,"[2019, 2020, 2021]",33.3,2,0,BBMP,ward_temporal,0.5
+CASE-WARD-128-FIXINGR,MEDIUM,0.3948,Recurring Fixing/Reparing Potholes — Nagarabhavi (2019–2022),6,Nagarabhavi,"[2019, 2021, 2022]",33.3,2,0,BBMP,ward_temporal,0.5
+CASE-GEO-0200,MEDIUM,0.393,Recurring Tarring Or Asphalting Of Existing Road — Devasandra (2019–2020),5,Devasandra,"[2019, 2020]",60.0,3,1,BBMP,geo_dbscan,0.7
+CASE-WARD-003-FIXINGR,MEDIUM,0.3891,Recurring Fixing/Reparing Potholes — Atturu (2019–2021),5,Atturu,"[2019, 2020, 2021]",40.0,2,0,BBMP,ward_temporal,0.6
+CASE-WARD-190-TARRING_,MEDIUM,0.3881,Recurring Tarring Or Asphalting Of Existing Road — Mangamannapalya (2019–2020),12,Mangamannapalya,"[2019, 2020]",33.3,4,2,BBMP,ward_temporal,0.45
+CASE-GEO-0101,MEDIUM,0.3867,Recurring Tarring Or Asphalting Of Existing Road — Dodda Nekkundi (2019–2020),10,Dodda Nekkundi,"[2019, 2020]",50.0,5,2,BBMP,geo_dbscan,0.75
+CASE-WARD-028-FIXINGR,MEDIUM,0.3863,Recurring Fixing/Reparing Potholes — Kammanahalli (2019–2022),7,Kammanahalli,"[2019, 2020, 2021, 2022]",28.6,2,0,BBMP,ward_temporal,0.5
+CASE-WARD-113-TARRING_,MEDIUM,0.3858,Recurring Tarring Or Asphalting Of Existing Road — Konena Agrahara (2019–2020),11,Konena Agrahara,"[2019, 2020]",45.5,5,2,BBMP,ward_temporal,0.55
+CASE-WARD-054-TARRING_,MEDIUM,0.3834,Recurring Tarring Or Asphalting Of Existing Road — Hoodi (2019–2020),15,Hoodi,"[2019, 2020]",26.7,4,2,BBMP,ward_temporal,0.45
+CASE-GEO-0179,MEDIUM,0.38,Recurring Fixing/Reparing Potholes — Bommanahalli (2019–2022),5,Bommanahalli,"[2019, 2020, 2022]",40.0,2,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0186,MEDIUM,0.38,Recurring Tarring Or Asphalting Of Existing Road — Dharmaraya Swamy Temple (2019–2021),5,Dharmaraya Swamy Temple,"[2019, 2020, 2021]",40.0,2,0,BBMP,geo_dbscan,0.8
+CASE-GEO-0189,MEDIUM,0.38,Recurring Fixing/Reparing Potholes — Heggenahali (2019–2022),5,Heggenahali,"[2019, 2021, 2022]",40.0,2,0,BBMP,geo_dbscan,0.8
+CASE-WARD-106-ROAD_GEN,MEDIUM,0.3782,Recurring Provision For Parking — Dr Raj Kumar (2019–2020),6,Dr Raj Kumar,"[2019, 2020]",66.7,4,0,BBMP,ward_temporal,0.45
+CASE-WARD-006-TARRING_,MEDIUM,0.3772,Recurring Tarring Or Asphalting Of Existing Road — Thanisandra (2019–2022),7,Thanisandra,"[2019, 2020, 2022]",28.6,2,0,BBMP,ward_temporal,0.5
+CASE-WARD-032-FIXINGR,MEDIUM,0.3772,Recurring Fixing/Reparing Potholes — Kaval Bairasandra (2019–2021),7,Kaval Bairasandra,"[2019, 2020, 2021]",28.6,2,0,BBMP,ward_temporal,0.5
+CASE-GEO-0014,MEDIUM,0.3767,Recurring Tarring Or Asphalting Of Existing Road — Gottigere (2019–2021),6,Gottigere,"[2019, 2021]",66.7,4,1,BBMP,geo_dbscan,0.7
+CASE-GEO-0058,MEDIUM,0.3742,Recurring Fixing/Reparing Potholes — Thanisandra (2019–2021),7,Thanisandra,"[2019, 2021]",57.1,4,1,BBMP,geo_dbscan,0.7
+CASE-WARD-025-FLOODING,MEDIUM,0.373,Recurring Flooding/Waterlogging Of Roads And Footpaths — Horamavu (2019–2020),5,Horamavu,"[2019, 2020]",60.0,3,0,BBMP,ward_temporal,0.45
+CASE-GEO-0056,MEDIUM,0.3692,Recurring Construction Of Skywalk/Flyover/Underpass — Jakkasandra (2019–2021),6,Jakkasandra,"[2019, 2021]",66.7,4,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0077,MEDIUM,0.369,Recurring Fixing/Reparing Potholes — Thanisandra (2019–2021),7,Thanisandra,"[2019, 2021]",57.1,4,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0148,MEDIUM,0.3679,Recurring Tarring Or Asphalting Of Existing Road — Shettihalli (2019–2020),9,Shettihalli,"[2019, 2020]",55.6,5,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0043,MEDIUM,0.3676,Recurring Fixing/Reparing Potholes — Jakkuru (2019–2020),11,Jakkuru,"[2019, 2020]",36.4,4,0,BBMP,geo_dbscan,0.6
+CASE-WARD-196-TARRING_,MEDIUM,0.3667,Recurring Tarring Or Asphalting Of Existing Road — Anjanapura (2019–2020),10,Anjanapura,"[2019, 2020]",50.0,5,0,BBMP,ward_temporal,0.5
+CASE-WARD-009-FIXINGR,MEDIUM,0.3657,Recurring Fixing/Reparing Potholes — Vidyaranyapura (2019–2020),9,Vidyaranyapura,"[2019, 2020]",44.4,4,1,BBMP,ward_temporal,0.5
+CASE-GEO-0122,MEDIUM,0.3642,Recurring Repair Of Existing Footpaths — Vasanth Nagar (2019–2020),5,Vasanth Nagar,"[2019, 2020]",60.0,3,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0121,MEDIUM,0.3641,Recurring Tarring Or Asphalting Of Existing Road — Sarvagna Nagar (2019–2022),8,Sarvagna Nagar,"[2019, 2020, 2022]",12.5,1,0,BBMP,geo_dbscan,0.7
+CASE-WARD-084-FIXINGR,MEDIUM,0.3616,Recurring Fixing/Reparing Potholes — Hagadur (2019–2022),12,Hagadur,"[2019, 2022]",33.3,4,1,BBMP,ward_temporal,0.45
+CASE-WARD-111-ROAD_GEN,MEDIUM,0.3608,Recurring Management Of Hawkers and Vendors — Shantala Nagar (2019–2021),8,Shantala Nagar,"[2019, 2021]",25.0,2,1,BBMP,ward_temporal,0.4
+CASE-WARD-086-FIXINGR,MEDIUM,0.3593,Recurring Fixing/Reparing Potholes — Marathahalli (2019–2021),8,Marathahalli,"[2019, 2021]",37.5,3,0,BBMP,ward_temporal,0.35
+CASE-GEO-0011,MEDIUM,0.3577,Recurring Tarring Or Asphalting Of Existing Road — HBR Layout (2019–2022),7,HBR Layout,"[2019, 2020, 2022]",14.3,1,0,BBMP,geo_dbscan,0.7
+CASE-GEO-0095,MEDIUM,0.3558,Recurring Tarring Or Asphalting Of Existing Road — Hoysala Nagar (2019–2021),10,Hoysala Nagar,"[2019, 2021]",40.0,4,0,BBMP,geo_dbscan,0.7
+CASE-GEO-0165,MEDIUM,0.3558,Recurring Fixing/Reparing Potholes — Jnana Bharathi (2019–2021),5,Jnana Bharathi,"[2019, 2021]",40.0,2,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0140,MEDIUM,0.3548,Recurring Fixing/Reparing Potholes — Hosakerehalli (2019–2021),5,Hosakerehalli,"[2019, 2021]",60.0,3,0,BBMP,geo_dbscan,0.65
+CASE-WARD-179-FIXINGR,MEDIUM,0.3548,Recurring Fixing/Reparing Potholes — Shakambari Nagar (2019–2020),5,Shakambari Nagar,"[2019, 2020]",60.0,3,0,BBMP,ward_temporal,0.45
+CASE-GEO-0126,LOW,0.3458,Recurring Fixing/Reparing Potholes — Jaraganahalli (2019–2021),5,Jaraganahalli,"[2019, 2021]",60.0,3,0,BBMP,geo_dbscan,0.65
+CASE-WARD-192-FLOODING,LOW,0.3458,Recurring Flooding/Waterlogging Of Roads And Footpaths — Begur (2019–2020),5,Begur,"[2019, 2020]",60.0,3,0,BBMP,ward_temporal,0.45
+CASE-WARD-130-FIXINGR,LOW,0.3455,Recurring Fixing/Reparing Potholes — Ullalu (2019–2020),9,Ullalu,"[2019, 2020]",44.4,4,0,BBMP,ward_temporal,0.45
+CASE-GEO-0029,LOW,0.3448,Recurring Fixing/Reparing Potholes — Hagadur (2019–2020),10,Hagadur,"[2019, 2020]",30.0,3,0,BBMP,geo_dbscan,0.6
+CASE-GEO-0136,LOW,0.3406,Recurring Fixing/Reparing Potholes — Begur (2019–2020),7,Begur,"[2019, 2020]",42.9,3,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0206,LOW,0.34,Recurring Fixing/Reparing Potholes — Sunkenahalli (2019–2022),5,Sunkenahalli,"[2019, 2020, 2022]",20.0,1,0,BBMP,geo_dbscan,0.7
+CASE-GEO-0202,LOW,0.3398,Recurring Fixing/Reparing Potholes — Okalipuram (2019–2020),5,Okalipuram,"[2019, 2020]",40.0,2,0,BBMP,geo_dbscan,0.65
+CASE-WARD-005-TARRING_,LOW,0.3392,Recurring Tarring Or Asphalting Of Existing Road — Jakkuru (2019–2020),15,Jakkuru,"[2019, 2020]",6.7,1,0,BBMP,ward_temporal,0.4
+CASE-GEO-0143,LOW,0.3367,Recurring Tarring Or Asphalting Of Existing Road — Horamavu (2019–2020),12,Horamavu,"[2019, 2020]",25.0,3,0,BBMP,geo_dbscan,0.6
+CASE-GEO-0212,LOW,0.3367,Recurring Fixing/Reparing Potholes — Kaval Bairasandra (2020–2021),5,Kaval Bairasandra,"[2020, 2021]",60.0,3,0,BBMP,geo_dbscan,0.65
+CASE-WARD-005-FIXINGR,LOW,0.3358,Recurring Fixing/Reparing Potholes — Jakkuru (2019–2020),10,Jakkuru,"[2019, 2020]",30.0,3,0,BBMP,ward_temporal,0.4
+CASE-GEO-0051,LOW,0.3313,Recurring Fixing/Reparing Potholes — Bilekahalli (2019–2020),11,Bilekahalli,"[2019, 2020]",27.3,3,0,BBMP,geo_dbscan,0.6
+CASE-WARD-113-FIXINGR,LOW,0.3312,Recurring Fixing/Reparing Potholes — Konena Agrahara (2019–2020),11,Konena Agrahara,"[2019, 2020]",18.2,2,0,BBMP,ward_temporal,0.4
+CASE-GEO-0197,LOW,0.3267,Recurring Tarring Or Asphalting Of Existing Road — Rajarajeshwari Nagar (2020–2021),6,Rajarajeshwari Nagar,"[2020, 2021]",50.0,3,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0214,LOW,0.3267,Recurring Fixing/Reparing Potholes — Thanisandra (2019–2021),6,Thanisandra,"[2019, 2021]",50.0,3,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0207,LOW,0.3239,Recurring Fixing/Reparing Potholes — Benniganahalli (2019–2020),5,Benniganahalli,"[2019, 2020]",40.0,2,0,BBMP,geo_dbscan,0.65
+CASE-WARD-153-FIXINGR,LOW,0.3229,Recurring Fixing/Reparing Potholes — Jayanagar (2019–2020),7,Jayanagar,"[2019, 2020]",28.6,2,0,BBMP,ward_temporal,0.35
+CASE-GEO-0131,LOW,0.3207,Recurring Fixing/Reparing Potholes — Sampangiram Nagar (2019–2020),5,Sampangiram Nagar,"[2019, 2020]",40.0,2,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0109,LOW,0.3199,Recurring Fixing/Reparing Potholes — Aramane Nagara (2019–2021),6,Aramane Nagara,"[2019, 2021]",33.3,2,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0047,LOW,0.3158,Recurring Fixing/Reparing Potholes — Pattabhiram Nagar (2019–2021),10,Pattabhiram Nagar,"[2019, 2021]",20.0,2,0,BBMP,geo_dbscan,0.6
+CASE-GEO-0027,LOW,0.3148,Recurring Fixing/Reparing Potholes — Byatarayanapura (2019–2020),8,Byatarayanapura,"[2019, 2020]",0.0,0,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0152,LOW,0.3148,Recurring Fixing/Reparing Potholes — Bilekahalli (2019–2020),5,Bilekahalli,"[2019, 2020]",40.0,2,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0198,LOW,0.3148,Recurring Fixing/Reparing Potholes — Jakkuru (2019–2020),5,Jakkuru,"[2019, 2020]",40.0,2,0,BBMP,geo_dbscan,0.65
+CASE-GEO-0154,LOW,0.3114,Recurring Fixing/Reparing Potholes — Vijnana Nagar (2019–2020),6,Vijnana Nagar,"[2019, 2020]",33.3,2,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0055,LOW,0.3101,Recurring Fixing/Reparing Potholes — Uttarahalli (2019–2021),6,Uttarahalli,"[2019, 2021]",16.7,1,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0133,LOW,0.3067,Recurring Fixing/Reparing Potholes — Pulikeshinagar (2019–2020),10,Pulikeshinagar,"[2019, 2020]",20.0,2,0,BBMP,geo_dbscan,0.6
+CASE-GEO-0203,LOW,0.3058,Recurring Tarring Or Asphalting Of Existing Road — Girinagar (2019–2020),5,Girinagar,"[2019, 2020]",40.0,2,0,BBMP,geo_dbscan,0.65
+CASE-WARD-197-TARRING_,LOW,0.303,Recurring Tarring Or Asphalting Of Existing Road — Vasanthapura (2019–2021),7,Vasanthapura,"[2019, 2021]",28.6,2,0,BBMP,ward_temporal,0.35
+CASE-WARD-050-FIXINGR,LOW,0.303,Recurring Fixing/Reparing Potholes — Benniganahalli (2019–2022),7,Benniganahalli,"[2019, 2022]",28.6,2,0,BBMP,ward_temporal,0.35
+CASE-GEO-0057,LOW,0.3024,Recurring Tarring Or Asphalting Of Existing Road — Hombegowda Nagar (2019–2020),6,Hombegowda Nagar,"[2019, 2020]",33.3,2,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0083,LOW,0.3024,Recurring Fixing/Reparing Potholes — Kadugodi (2019–2020),6,Kadugodi,"[2019, 2020]",33.3,2,0,BBMP,geo_dbscan,0.55
+CASE-WARD-113-ROAD_GEN,LOW,0.3024,Recurring Construction of new footpaths — Konena Agrahara (2019–2021),6,Konena Agrahara,"[2019, 2021]",33.3,2,0,BBMP,ward_temporal,0.35
+CASE-WARD-010-FIXINGR,LOW,0.3024,Recurring Fixing/Reparing Potholes — Dodda Bommasandra (2019–2022),6,Dodda Bommasandra,"[2019, 2022]",33.3,2,0,BBMP,ward_temporal,0.35
+CASE-GEO-0036,LOW,0.3011,Recurring Fixing/Reparing Potholes — Yediyur (2019–2020),9,Yediyur,"[2019, 2020]",22.2,2,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0091,LOW,0.2967,Recurring Tarring Or Asphalting Of Existing Road — Ejipura (2019–2020),8,Ejipura,"[2019, 2020]",25.0,2,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0182,LOW,0.2933,Recurring Tarring Or Asphalting Of Existing Road — Bellanduru (2019–2020),6,Bellanduru,"[2019, 2020]",33.3,2,0,BBMP,geo_dbscan,0.55
+CASE-WARD-151-TARRING_,LOW,0.2933,Recurring Tarring Or Asphalting Of Existing Road — Koramangala (2019–2020),8,Koramangala,"[2019, 2020]",12.5,1,1,BBMP,ward_temporal,0.4
+CASE-GEO-0210,LOW,0.2918,Recurring Fixing/Reparing Potholes — Vasanthapura (2019–2020),3,Vasanthapura,"[2019, 2020]",33.3,1,0,BBMP,geo_dbscan,0.45
+CASE-GEO-0134,LOW,0.2898,Recurring Tarring Or Asphalting Of Existing Road — Basavanapura (2019–2020),8,Basavanapura,"[2019, 2020]",12.5,1,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0075,LOW,0.2867,Recurring Tarring Or Asphalting Of Existing Road — Gottigere (2019–2021),10,Gottigere,"[2019, 2021]",10.0,1,0,BBMP,geo_dbscan,0.6
+CASE-GEO-0209,LOW,0.2852,Recurring Flooding/Waterlogging Of Roads And Footpaths — Marathahalli (2019–2020),4,Marathahalli,"[2019, 2020]",25.0,1,0,BBMP,geo_dbscan,0.45
+CASE-GEO-0005,LOW,0.2792,Recurring Fixing/Reparing Potholes — K R Market (2019–2020),8,K R Market,"[2019, 2020]",12.5,1,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0052,LOW,0.2789,Recurring Fixing/Reparing Potholes — Mangamannapalya (2019–2020),9,Mangamannapalya,"[2019, 2020]",11.1,1,0,BBMP,geo_dbscan,0.55
+CASE-WARD-162-FIXINGR,LOW,0.2782,Recurring Fixing/Reparing Potholes — Girinagar (2019–2020),6,Girinagar,"[2019, 2020]",16.7,1,0,BBMP,ward_temporal,0.35
+CASE-WARD-143-FIXINGR,LOW,0.2782,Recurring Fixing/Reparing Potholes — Vishveshwarapura (2019–2020),6,Vishveshwarapura,"[2019, 2020]",16.7,1,0,BBMP,ward_temporal,0.35
+CASE-GEO-0048,LOW,0.2748,Recurring Tarring Or Asphalting Of Existing Road — Hagadur (2019–2022),5,Hagadur,"[2019, 2022]",20.0,1,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0184,LOW,0.2748,Recurring Tarring Or Asphalting Of Existing Road — Benniganahalli (2019–2020),5,Benniganahalli,"[2019, 2020]",20.0,1,0,BBMP,geo_dbscan,0.55
+CASE-WARD-042-FIXINGR,LOW,0.2748,Recurring Fixing/Reparing Potholes — Lakshmi Devi Nagar (2019–2020),5,Lakshmi Devi Nagar,"[2019, 2020]",20.0,1,0,BBMP,ward_temporal,0.35
+CASE-GEO-0023,LOW,0.2692,Recurring Tarring Or Asphalting Of Existing Road — Bellanduru (2019–2020),6,Bellanduru,"[2019, 2020]",16.7,1,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0060,LOW,0.2692,Recurring Tarring Or Asphalting Of Existing Road — Bellanduru (2019–2021),6,Bellanduru,"[2019, 2021]",16.7,1,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0119,LOW,0.2692,Recurring Fixing/Reparing Potholes — Vijnana Nagar (2019–2020),6,Vijnana Nagar,"[2019, 2020]",16.7,1,0,BBMP,geo_dbscan,0.55
+CASE-WARD-073-TARRING_,LOW,0.2658,Recurring Tarring Or Asphalting Of Existing Road — Kottigepalya (2019–2021),9,Kottigepalya,"[2019, 2021]",0.0,0,0,BBMP,ward_temporal,0.35
+CASE-WARD-179-TARRING_,LOW,0.2658,Recurring Tarring Or Asphalting Of Existing Road — Shakambari Nagar (2019–2020),5,Shakambari Nagar,"[2019, 2020]",20.0,1,0,BBMP,ward_temporal,0.35
+CASE-GEO-0175,LOW,0.2567,Recurring Construction of new footpaths — Sriramamandira (2019–2022),5,Sriramamandira,"[2019, 2022]",20.0,1,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0187,LOW,0.2558,Recurring Fixing/Reparing Potholes — Hagadur (2019–2020),8,Hagadur,"[2019, 2020]",0.0,0,0,BBMP,geo_dbscan,0.55
+CASE-GEO-0072,LOW,0.2258,Recurring Fixing/Reparing Potholes — Jayamahal (2019–2020),5,Jayamahal,"[2019, 2020]",0.0,0,0,BBMP,geo_dbscan,0.55

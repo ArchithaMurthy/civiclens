@@ -1,0 +1,711 @@
+{
+  "dedup": {
+    "exact_total": 163,
+    "exact_identical_text_close_gps": 100,
+    "exact_identical_text_distant_gps": 63,
+    "exact_identical_text_no_gps": 0,
+    "exact_different_ward": 0,
+    "exact_different_subcat": 8,
+    "near_total": 689,
+    "near_with_gps_signal": 685,
+    "near_text_only": 4,
+    "near_no_text": 677,
+    "sample_exact": [
+      {
+        "pair": [
+          "ICMC-00345-1452dd1b",
+          "ICMC-00346-f8323161"
+        ],
+        "confidence": 1.0,
+        "signals": [
+          "same_subcategory",
+          "same_category",
+          "identical_description",
+          "gps_within_50m",
+          "within_3_days",
+          "same_source"
+        ],
+        "days_apart": 0.0,
+        "distance_km": 0.0,
+        "ward_a": "Begur",
+        "ward_b": "Begur",
+        "subcat_a": "Fixing/Reparing Potholes",
+        "subcat_b": "Fixing/Reparing Potholes",
+        "desc_a": "Very Very Bad Road and needs to be retarded urgently as badly suffering",
+        "desc_b": "Very Very Bad Road and needs to be retarded urgently as badly suffering",
+        "created_at_a": "1/25/2019 11:19",
+        "created_at_b": "1/25/2019 11:19",
+        "same_description": true
+      },
+      {
+        "pair": [
+          "ICMC-00345-1452dd1b",
+          "ICMC-00347-c3ea9ac3"
+        ],
+        "confidence": 1.0,
+        "signals": [
+          "same_subcategory",
+          "same_category",
+          "identical_description",
+          "within_3_days",
+          "same_source"
+        ],
+        "days_apart": 0.0,
+        "distance_km": 0.2408,
+        "ward_a": "Begur",
+        "ward_b": "Begur",
+        "subcat_a": "Fixing/Reparing Potholes",
+        "subcat_b": "Fixing/Reparing Potholes",
+        "desc_a": "Very Very Bad Road and needs to be retarded urgently as badly suffering",
+        "desc_b": "Very Very Bad Road and needs to be retarded urgently as badly suffering",
+        "created_at_a": "1/25/2019 11:19",
+        "created_at_b": "1/25/2019 11:20",
+        "same_description": true
+      },
+      {
+        "pair": [
+          "ICMC-00346-f8323161",
+          "ICMC-00347-c3ea9ac3"
+        ],
+        "confidence": 1.0,
+        "signals": [
+          "same_subcategory",
+          "same_category",
+          "identical_description",
+          "within_3_days",
+          "same_source"
+        ],
+        "days_apart": 0.0,
+        "distance_km": 0.2408,
+        "ward_a": "Begur",
+        "ward_b": "Begur",
+        "subcat_a": "Fixing/Reparing Potholes",
+        "subcat_b": "Fixing/Reparing Potholes",
+        "desc_a": "Very Very Bad Road and needs to be retarded urgently as badly suffering",
+        "desc_b": "Very Very Bad Road and needs to be retarded urgently as badly suffering",
+        "created_at_a": "1/25/2019 11:19",
+        "created_at_b": "1/25/2019 11:20",
+        "same_description": true
+      },
+      {
+        "pair": [
+          "ICMC-00887-9047c48d",
+          "ICMC-00888-c830a66c"
+        ],
+        "confidence": 1.0,
+        "signals": [
+          "same_subcategory",
+          "same_category",
+          "identical_description",
+          "gps_within_50m",
+          "within_3_days",
+          "same_source"
+        ],
+        "days_apart": 0.0,
+        "distance_km": 0.0256,
+        "ward_a": "Begur",
+        "ward_b": "Begur",
+        "subcat_a": "Fixing/Reparing Potholes",
+        "subcat_b": "Fixing/Reparing Potholes",
+        "desc_a": "Very Very Bad Road and needs to be retarded urgently as badly suffering",
+        "desc_b": "Very Very Bad Road and needs to be retarded urgently as badly suffering",
+        "created_at_a": "2/27/2019 19:14",
+        "created_at_b": "2/27/2019 19:15",
+        "same_description": true
+      },
+      {
+        "pair": [
+          "ICMC-14079-f06e8d15",
+          "ICMC-14080-ba8021f2"
+        ],
+        "confidence": 1.0,
+        "signals": [
+          "same_subcategory",
+          "same_category",
+          "identical_description",
+          "gps_within_50m",
+          "within_3_days",
+          "same_source"
+        ],
+        "days_apart": 0.0,
+        "distance_km": 0.0,
+        "ward_a": "Begur",
+        "ward_b": "Begur",
+        "subcat_a": "Fixing/Reparing Potholes",
+        "subcat_b": "Fixing/Reparing Potholes",
+        "desc_a": "Potholes and broken roads are making the driving  time horrible, Monsoon is making it worst.\n\nCommute to daily errands have been difficult.\n\nRoad infrastructure is a basic necessity and I please urge ",
+        "desc_b": "Potholes and broken roads are making the driving  time horrible, Monsoon is making it worst.\n\nCommute to daily errands have been difficult.\n\nRoad infrastructure is a basic necessity and I please urge ",
+        "created_at_a": "10/31/2021 12:09",
+        "created_at_b": "10/31/2021 12:10",
+        "same_description": true
+      }
+    ]
+  },
+  "cluster_quality": {
+    "total_clusters": 298,
+    "geo_clusters": 189,
+    "ward_clusters": 109,
+    "geo_large_extent_gt_1km": 41,
+    "geo_very_large_extent_gt_1p5km": 17,
+    "top5_largest_extent": [
+      [
+        "CASE-GEO-0106",
+        1.999,
+        29
+      ],
+      [
+        "CASE-GEO-0034",
+        1.996,
+        103
+      ],
+      [
+        "CASE-GEO-0033",
+        1.92,
+        44
+      ],
+      [
+        "CASE-GEO-0016",
+        1.909,
+        36
+      ],
+      [
+        "CASE-GEO-0037",
+        1.877,
+        35
+      ]
+    ],
+    "multi_ward_clusters_gt2": 33,
+    "tiny_clusters_lt5": 4,
+    "all_open_no_resolved": 45,
+    "very_high_unresolved_gt80pct": 27,
+    "crosswalk_joins": 298,
+    "approx_joins": 0,
+    "low_overlap_confidence_lt50pct": 0,
+    "low_overlap_sample": []
+  },
+  "case_quality": [
+    {
+      "case_id": "CASE-GEO-0044",
+      "ward": "Begur",
+      "score": 0.6244,
+      "complaint_count": 56,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 50.0,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 45,
+      "status_sum_gap": 11,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=192 mapped to datameet243=204 via crosswalk (overlap_confidence=0.4"
+    },
+    {
+      "case_id": "CASE-GEO-0034",
+      "ward": "Varthur",
+      "score": 0.6101,
+      "complaint_count": 103,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 50.5,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 77,
+      "status_sum_gap": 26,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=149 mapped to datameet243=159 via crosswalk (overlap_confidence=0.6"
+    },
+    {
+      "case_id": "CASE-WARD-150-FIXINGR",
+      "ward": "Bellanduru",
+      "score": 0.5742,
+      "complaint_count": 100,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 27.0,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 89,
+      "status_sum_gap": 11,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=150 mapped to datameet243=161 via crosswalk (overlap_confidence=0.7"
+    },
+    {
+      "case_id": "CASE-WARD-192-FIXINGR",
+      "ward": "Begur",
+      "score": 0.568,
+      "complaint_count": 38,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 31.6,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 27,
+      "status_sum_gap": 11,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=192 mapped to datameet243=204 via crosswalk (overlap_confidence=0.4"
+    },
+    {
+      "case_id": "CASE-GEO-0090",
+      "ward": "Begur",
+      "score": 0.5673,
+      "complaint_count": 38,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 55.3,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 33,
+      "status_sum_gap": 5,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=192 mapped to datameet243=204 via crosswalk (overlap_confidence=0.4"
+    },
+    {
+      "case_id": "CASE-WARD-150-TARRING_",
+      "ward": "Bellanduru",
+      "score": 0.5524,
+      "complaint_count": 81,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 23.5,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 77,
+      "status_sum_gap": 4,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=150 mapped to datameet243=161 via crosswalk (overlap_confidence=0.7"
+    },
+    {
+      "case_id": "CASE-GEO-0000",
+      "ward": "Begur",
+      "score": 0.5454,
+      "complaint_count": 21,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 66.7,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 20,
+      "status_sum_gap": 1,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=192 mapped to datameet243=204 via crosswalk (overlap_confidence=0.4"
+    },
+    {
+      "case_id": "CASE-GEO-0181",
+      "ward": "Domlur",
+      "score": 0.5241,
+      "complaint_count": 9,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 66.7,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 8,
+      "status_sum_gap": 1,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=112 mapped to datameet243=122 via crosswalk (overlap_confidence=0.7"
+    },
+    {
+      "case_id": "CASE-GEO-0063",
+      "ward": "Horamavu",
+      "score": 0.5136,
+      "complaint_count": 34,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 50.0,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 27,
+      "status_sum_gap": 7,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=25 mapped to datameet243=27 via crosswalk (overlap_confidence=1)."
+    },
+    {
+      "case_id": "CASE-GEO-0071",
+      "ward": "Singasandra",
+      "score": 0.5131,
+      "complaint_count": 27,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 51.9,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 28,
+      "status_sum_gap": 1,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=191 mapped to datameet243=203 via crosswalk (overlap_confidence=0.7"
+    },
+    {
+      "case_id": "CASE-WARD-198-FIXINGR",
+      "ward": "Hemmigepura",
+      "score": 0.5129,
+      "complaint_count": 11,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 63.6,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 8,
+      "status_sum_gap": 3,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=198 mapped to datameet243=210 via crosswalk (overlap_confidence=0.4"
+    },
+    {
+      "case_id": "CASE-WARD-198-TARRING_",
+      "ward": "Hemmigepura",
+      "score": 0.5082,
+      "complaint_count": 5,
+      "years": [
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 100.0,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 5,
+      "status_sum_gap": 0,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=198 mapped to datameet243=210 via crosswalk (overlap_confidence=0.4"
+    },
+    {
+      "case_id": "CASE-GEO-0008",
+      "ward": "Thanisandra",
+      "score": 0.5078,
+      "complaint_count": 43,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 55.8,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 30,
+      "status_sum_gap": 13,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=6 mapped to datameet243=8 via crosswalk (overlap_confidence=0.682)."
+    },
+    {
+      "case_id": "CASE-WARD-192-TARRING_",
+      "ward": "Begur",
+      "score": 0.5043,
+      "complaint_count": 35,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 22.9,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 19,
+      "status_sum_gap": 16,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=192 mapped to datameet243=204 via crosswalk (overlap_confidence=0.4"
+    },
+    {
+      "case_id": "CASE-WARD-025-FIXINGR",
+      "ward": "Horamavu",
+      "score": 0.5008,
+      "complaint_count": 44,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "unresolved_pct": 63.6,
+      "has_title": true,
+      "has_summary": true,
+      "has_dates": true,
+      "has_ward": true,
+      "has_agency": true,
+      "has_evidence_ge2": true,
+      "has_next_steps": true,
+      "has_rep_complaints_ge3": true,
+      "open_plus_resolved_plus_reopened": 34,
+      "status_sum_gap": 10,
+      "centroid_valid": true,
+      "ward_join_note_excerpt": "ICMC ward_id=25 mapped to datameet243=27 via crosswalk (overlap_confidence=1)."
+    }
+  ],
+  "priority_audit": {
+    "cases_with_high_crash_factor": 58,
+    "high_crash_low_complaint_lt15": 46,
+    "cases_at_max_recurrence_years": 70,
+    "sample_score_without_crash": [
+      {
+        "case_id": "CASE-GEO-0044",
+        "score": 0.6244,
+        "score_no_crash": 0.583,
+        "crash_factor": 1.0
+      },
+      {
+        "case_id": "CASE-GEO-0034",
+        "score": 0.6101,
+        "score_no_crash": 0.678,
+        "crash_factor": 0.0
+      },
+      {
+        "case_id": "CASE-WARD-150-FIXINGR",
+        "score": 0.5742,
+        "score_no_crash": 0.638,
+        "crash_factor": 0.0
+      },
+      {
+        "case_id": "CASE-WARD-192-FIXINGR",
+        "score": 0.568,
+        "score_no_crash": 0.52,
+        "crash_factor": 1.0
+      },
+      {
+        "case_id": "CASE-GEO-0090",
+        "score": 0.5673,
+        "score_no_crash": 0.519,
+        "crash_factor": 1.0
+      },
+      {
+        "case_id": "CASE-WARD-150-TARRING_",
+        "score": 0.5524,
+        "score_no_crash": 0.614,
+        "crash_factor": 0.0
+      },
+      {
+        "case_id": "CASE-GEO-0000",
+        "score": 0.5454,
+        "score_no_crash": 0.495,
+        "crash_factor": 1.0
+      },
+      {
+        "case_id": "CASE-GEO-0181",
+        "score": 0.5241,
+        "score_no_crash": 0.471,
+        "crash_factor": 1.0
+      },
+      {
+        "case_id": "CASE-GEO-0063",
+        "score": 0.5136,
+        "score_no_crash": 0.571,
+        "crash_factor": 0.0
+      },
+      {
+        "case_id": "CASE-GEO-0071",
+        "score": 0.5131,
+        "score_no_crash": 0.482,
+        "crash_factor": 0.79
+      }
+    ],
+    "scoring_weights": {
+      "complaint_volume": 0.25,
+      "recurrence_years": 0.25,
+      "unresolved_rate": 0.2,
+      "reopened_rate": 0.1,
+      "crash_risk": 0.1,
+      "description_severity": 0.1
+    },
+    "tier_thresholds": {
+      "HIGH": 0.5,
+      "MEDIUM": 0.3,
+      "LOW": 0.0
+    }
+  },
+  "evidence_traceability": {
+    "evidence_type_distribution": {
+      "complaint_volume": 298,
+      "complaint_status": 298,
+      "ward_pothole_data": 298,
+      "ward_road_spending": 298,
+      "work_orders_in_ward": 298,
+      "road_crash_data": 64
+    },
+    "evidence_items_missing_traceable_to": 0,
+    "cases_missing_complaint_ids": 298,
+    "note": "complaint_ids field not stored in civic_cases.json — cannot trace individual complaints from case JSON alone"
+  },
+  "begur_case": {
+    "top_case_id": "CASE-GEO-0044",
+    "reported_cluster_id": "GEO-0044",
+    "reported_ward": "Begur",
+    "reported_primary_ward_id": 192,
+    "reported_complaint_count": 56,
+    "ward_join_note": "ICMC ward_id=192 mapped to datameet243=204 via crosswalk (overlap_confidence=0.468).",
+    "mapped_datameet243": 204,
+    "raw_icmc_ward192_total": 535,
+    "raw_icmc_ward192_road": 285,
+    "raw_icmc_ward192_road_distinct_descs": 275,
+    "raw_icmc_ward192_road_duplicated_descs": 10,
+    "subcategory_dist": {
+      "Fixing/Reparing Potholes": 108,
+      "Tarring Or Asphalting Of Existing Road": 96,
+      "Tarring Or Asphalting Of Mud/Kutcha/Unpaved Road": 23,
+      "Construction of new footpaths": 7,
+      "Removal Of Roadside Debris (Construction Material)": 2,
+      "Need Covering Slabs For Roadside Drains": 3,
+      "Management Of Hawkers and Vendors": 5,
+      "Construction Of Roadside Drains": 12,
+      "Flooding/Waterlogging Of Roads And Footpaths": 10,
+      "Riding Without A Helmet": 1,
+      "Pillion Rider Not Wearing Helmet": 1,
+      "Repair Of Existing Footpaths": 2,
+      "Traffic Jams/Congestion Or Bottlenecks": 1,
+      "Desilting Existing Roadside Drains": 3,
+      "Need Roadside Rainwater Harvesting System": 2,
+      "Repair of Bridge and Culverts": 4,
+      "Need Lane Markings/Street Name/Road Signages": 1,
+      "Repair Of Roadside Rainwater Harvesting System": 1,
+      "Parking On Footpath": 2,
+      "Build new footpaths and repair broken footpaths": 1
+    },
+    "status_dist": {
+      "Resolved": 63,
+      "Re-opened": 11,
+      "On-the-Job": 79,
+      "Open": 129,
+      "Rejected": 3
+    },
+    "year_dist": {
+      "2019": 148,
+      "2020": 66,
+      "2021": 52,
+      "2022": 19
+    },
+    "gps_range": {
+      "lat_min": 12.8421725,
+      "lat_max": 12.89221289,
+      "lon_min": 77.587418,
+      "lon_max": 77.6665536
+    },
+    "gap_complaint_ids_not_in_case_json": true,
+    "note_on_cluster": "GEO-0044 is a DBSCAN geographic cluster — it groups complaints within 300m radius across multiple years. The 56 complaint_count comes from the cluster builder, but the actual complaint IDs are not stored in civic_cases.json."
+  }
+}

@@ -1,0 +1,270 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>CivicLens — Data Flow &amp; Architecture</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Segoe UI",system-ui,sans-serif;background:#f7f8fa;color:#1f2328;font-size:13px;line-height:1.5}
+.page{max-width:820px;margin:0 auto;padding:36px 28px 48px}
+
+.header{margin-bottom:24px}
+.header h1{font-size:21px;font-weight:700;letter-spacing:-0.3px;color:#1f2328}
+.header p{color:#57606a;font-size:12px;margin-top:4px}
+.badge-row{display:flex;gap:7px;margin-top:10px;flex-wrap:wrap}
+.badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:10px;font-weight:600;letter-spacing:.04em}
+.b-blue{background:#dbeafe;color:#1d4ed8}
+.b-green{background:#dcfce7;color:#15803d}
+.b-purple{background:#ede9fe;color:#6d28d9}
+.b-amber{background:#fef3c7;color:#b45309}
+
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+.kpi{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:14px 16px}
+.kv{font-size:24px;font-weight:700;line-height:1}
+.kv.red{color:#b91c1c}.kv.blue{color:#1d6fbf}.kv.amber{color:#b45309}
+.kl{font-size:10px;color:#57606a;margin-top:4px;text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+
+.section{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px 22px;margin-bottom:18px}
+.stitle{font-size:13px;font-weight:700;color:#1f2328;display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.stitle::before{content:"";display:inline-block;width:3px;height:16px;border-radius:2px;background:#3b82d4;flex-shrink:0}
+.ssub{font-size:11px;color:#57606a;margin-bottom:14px;padding-left:11px}
+
+/* flow diagram — vertical column layout */
+.flow{display:flex;flex-direction:column;gap:0;align-items:stretch}
+.flow-layer{margin-bottom:4px}
+.layer-label{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:6px 6px 0 0;display:inline-block}
+.layer-body{border-radius:0 10px 10px 10px;padding:12px 14px;display:flex;gap:10px;flex-wrap:wrap;align-items:stretch}
+.lyr-src  .layer-label{background:#bbf7d0;color:#15803d}
+.lyr-src  .layer-body {background:#f0fdf4;border:1px solid #bbf7d0}
+.lyr-proc .layer-label{background:#bfdbfe;color:#1d4ed8}
+.lyr-proc .layer-body {background:#eff6ff;border:1px solid #bfdbfe}
+.lyr-art  .layer-label{background:#e9d5ff;color:#6d28d9}
+.lyr-art  .layer-body {background:#faf5ff;border:1px solid #e9d5ff}
+.lyr-app  .layer-label{background:#fde68a;color:#b45309}
+.lyr-app  .layer-body {background:#fffbeb;border:1px solid #fde68a}
+
+.node{background:#fff;border-radius:8px;padding:9px 12px;flex:1;min-width:140px}
+.lyr-src  .node{border:1.5px solid #86efac}
+.lyr-proc .node{border:1.5px solid #93c5fd}
+.lyr-art  .node{border:1.5px solid #c4b5fd}
+.lyr-app  .node{border:1.5px solid #fcd34d}
+.node-title{font-size:11px;font-weight:700;line-height:1.3}
+.lyr-src  .node-title{color:#15803d}
+.lyr-proc .node-title{color:#1d4ed8}
+.lyr-art  .node-title{color:#6d28d9}
+.lyr-app  .node-title{color:#b45309}
+.node-sub{font-size:9.5px;color:#57606a;margin-top:3px;line-height:1.45}
+
+/* arrow between layers */
+.arrow-row{display:flex;justify-content:center;align-items:center;gap:6px;padding:3px 0;color:#94a3b8;font-size:11px}
+.arrow-row svg{flex-shrink:0}
+
+/* score factors */
+.factor{display:flex;align-items:center;gap:12px;padding:9px 14px;border:1px solid #e5e7eb;border-radius:8px;margin-bottom:8px;background:#f7f8fa}
+.fw{font-size:14px;font-weight:700;color:#3b82d4;width:36px;text-align:center;flex-shrink:0}
+.fdiv{width:1px;height:28px;background:#e5e7eb;flex-shrink:0}
+.fn{font-size:12px;font-weight:600;color:#1f2328}
+.fd{font-size:11px;color:#57606a;margin-top:2px}
+
+/* RAG */
+.rag-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.rag-card{border:1px solid #e5e7eb;border-radius:10px;padding:14px;background:#f7f8fa}
+.rag-num{width:22px;height:22px;border-radius:50%;background:#3b82d4;color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:8px}
+.rag-t{font-size:12px;font-weight:600;color:#1f2328;margin-bottom:5px}
+.rag-b{font-size:11px;color:#57606a;line-height:1.55}
+code{font-size:10px;background:#e5e7eb;padding:1px 4px;border-radius:3px;font-family:monospace}
+
+/* pills */
+.pill-row{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}
+.pill{padding:3px 10px;border-radius:20px;font-size:10px;font-weight:500;background:#f1f5f9;color:#374151;border:1px solid #e5e7eb}
+
+.footer{text-align:center;font-size:11px;color:#57606a;border-top:1px solid #e5e7eb;padding-top:16px;margin-top:28px}
+</style>
+</head>
+<body>
+<div class="page">
+
+  
+  <div class="header">
+    <h1>CivicLens — Data Flow &amp; Architecture</h1>
+    <p>End-to-end pipeline: raw BBMP complaints → clustered civic cases → AI-powered ward analysis</p>
+    <div class="badge-row">
+      <span class="badge b-blue">Open Source · POC</span>
+      <span class="badge b-green">Bengaluru Civic Data</span>
+      <span class="badge b-purple">RAG + LLM</span>
+      <span class="badge b-amber">ICMC 2019–2022</span>
+    </div>
+  </div>
+
+  
+  <div class="kpi-row">
+    <div class="kpi"><div class="kv">5,072</div><div class="kl">Raw Complaints</div></div>
+    <div class="kpi"><div class="kv blue">298</div><div class="kl">Civic Cases</div></div>
+    <div class="kpi"><div class="kv red">48</div><div class="kl">HIGH Priority</div></div>
+    <div class="kpi"><div class="kv">384</div><div class="kl">Embedding Dims</div></div>
+  </div>
+
+  
+  <div class="section">
+    <div class="stitle">Pipeline Architecture</div>
+    <div class="ssub">From raw complaints to AI chat — every transformation step</div>
+
+    <div class="flow">
+
+      
+      <div class="flow-layer lyr-src">
+        <span class="layer-label">Data Sources</span>
+        <div class="layer-body">
+          <div class="node">
+            <div class="node-title">ICMC Complaints</div>
+            <div class="node-sub">5,072 road complaints<br />2019–2022 · I Change My City platform</div>
+          </div>
+          <div class="node">
+            <div class="node-title">KAUN Work Orders</div>
+            <div class="node-sub">BBMP infrastructure spend<br />2023–2026 · ward-level data</div>
+          </div>
+          <div class="node">
+            <div class="node-title">Ward Boundaries</div>
+            <div class="node-sub">243 BBMP wards<br />GeoJSON boundaries · ward metadata</div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="arrow-row">
+        <svg width="16" height="20"><line x1="8" y1="0" x2="8" y2="13" stroke="#94a3b8" stroke-width="1.5"></line><polygon points="4,12 8,20 12,12" fill="#94a3b8"></polygon></svg>
+      </div>
+
+      
+      <div class="flow-layer lyr-proc">
+        <span class="layer-label">Processing Pipeline</span>
+        <div class="layer-body">
+          <div class="node">
+            <div class="node-title">Data Cleaning</div>
+            <div class="node-sub">Dedup · normalise · encoding fixes<br />Pandas · merge ICMC + ward data</div>
+          </div>
+          <div class="node">
+            <div class="node-title">Case Clustering</div>
+            <div class="node-sub">geo_dbscan (spatial)<br />+ ward_temporal (category × ward × year)</div>
+          </div>
+          <div class="node">
+            <div class="node-title">Ward Enrichment</div>
+            <div class="node-sub">Exact · fuzzy · geo join<br />206 exact · 66 fuzzy · 26 unmatched</div>
+          </div>
+          <div class="node">
+            <div class="node-title">Priority Scoring</div>
+            <div class="node-sub">0–1 scale · HIGH ≥ 0.5<br />5 weighted factors → CaseRow + CaseFull</div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="arrow-row">
+        <svg width="16" height="20"><line x1="8" y1="0" x2="8" y2="13" stroke="#94a3b8" stroke-width="1.5"></line><polygon points="4,12 8,20 12,12" fill="#94a3b8"></polygon></svg>
+      </div>
+
+      
+      <div class="flow-layer lyr-art">
+        <span class="layer-label">Artefacts (public/data/)</span>
+        <div class="layer-body">
+          <div class="node">
+            <div class="node-title">cases_index.json</div>
+            <div class="node-sub">298 × CaseRow — lightweight index<br />Loaded at app startup, drives map + lists</div>
+          </div>
+          <div class="node">
+            <div class="node-title">case_*.json (298 files)</div>
+            <div class="node-sub">CaseFull — per-case detail on demand<br />Factors · evidence · rationale · work orders</div>
+          </div>
+          <div class="node">
+            <div class="node-title">embeddings.json</div>
+            <div class="node-sub">298 × 384-dim float vectors<br />all-MiniLM-L6-v2 · 2.3 MB · built once</div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="arrow-row">
+        <svg width="16" height="20"><line x1="8" y1="0" x2="8" y2="13" stroke="#94a3b8" stroke-width="1.5"></line><polygon points="4,12 8,20 12,12" fill="#94a3b8"></polygon></svg>
+      </div>
+
+      
+      <div class="flow-layer lyr-app">
+        <span class="layer-label">Application Layer</span>
+        <div class="layer-body">
+          <div class="node">
+            <div class="node-title">Ward Explorer</div>
+            <div class="node-sub">React · Leaflet · Recharts<br />Map · case list · priority filters</div>
+          </div>
+          <div class="node">
+            <div class="node-title">RAG Retrieval (rag.ts)</div>
+            <div class="node-sub">Query → WASM embed → cosine sim<br />Top-5 case IDs → fetch CaseFull</div>
+          </div>
+          <div class="node">
+            <div class="node-title">AI Chat (Qwen 27B)</div>
+            <div class="node-sub">Groq API · qwen/qwen3.8-27b<br />System prompt + retrieved context</div>
+          </div>
+          <div class="node">
+            <div class="node-title">Overview Dashboard</div>
+            <div class="node-sub">KPI cards · trend charts<br />Top wards · priority cases</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <div class="section">
+    <div class="stitle">Priority Score Formula</div>
+    <div class="ssub">0–1 scale · HIGH ≥ 0.5 · MEDIUM 0.3–0.5 · LOW &lt; 0.3</div>
+    <div class="factor"><div class="fw">30%</div><div class="fdiv"></div><div><div class="fn">Complaint Volume</div><div class="fd">Scaled log of total complaints in cluster — raw signal strength</div></div></div>
+    <div class="factor"><div class="fw">25%</div><div class="fdiv"></div><div><div class="fn">Unresolved Rate</div><div class="fd">% of complaints still open or re-opened — BBMP response failure signal</div></div></div>
+    <div class="factor"><div class="fw">20%</div><div class="fdiv"></div><div><div class="fn">Recurrence</div><div class="fd">Number of years the problem persisted (2019–2022) — chronic vs one-off</div></div></div>
+    <div class="factor"><div class="fw">15%</div><div class="fdiv"></div><div><div class="fn">Geographic Spread</div><div class="fd">Cluster extent in km — density signal (localised hotspot vs wide-area spread)</div></div></div>
+    <div class="factor"><div class="fw">10%</div><div class="fdiv"></div><div><div class="fn">Re-open Rate</div><div class="fd">Complaints closed then re-opened — proxy for fix quality / contractor accountability</div></div></div>
+  </div>
+
+  
+  <div class="section">
+    <div class="stitle">AI Chat — RAG Flow</div>
+    <div class="ssub">City-level questions grounded in real case data · zero extra infra · fully client-side retrieval</div>
+    <div class="rag-grid">
+      <div class="rag-card">
+        <div class="rag-num">1</div>
+        <div class="rag-t">Build-time Embeddings</div>
+        <div class="rag-b">Node.js script runs <em>once</em> — embeds all 298 cases with <code>all-MiniLM-L6-v2</code> → saves 298 × 384-dim vectors to <code>embeddings.json</code>. Re-run when case data changes.</div>
+      </div>
+      <div class="rag-card">
+        <div class="rag-num">2</div>
+        <div class="rag-t">In-browser Retrieval</div>
+        <div class="rag-b">User query → <strong>@huggingface/transformers WASM</strong> (same model, runs client-side, ~25 MB one-time download) → cosine similarity vs all 298 vectors → top-5 case IDs.</div>
+      </div>
+      <div class="rag-card">
+        <div class="rag-num">3</div>
+        <div class="rag-t">Grounded LLM Response</div>
+        <div class="rag-b">Top-5 <code>CaseFull</code> records injected into system prompt → <strong>Qwen 27B via Groq</strong> answers with real ward names, real scores, real complaint counts. No hallucination.</div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="section">
+    <div class="stitle">Tech Stack</div>
+    <div class="pill-row">
+      <span class="pill">React 18</span><span class="pill">TypeScript</span><span class="pill">Vite</span>
+      <span class="pill">Tailwind CSS</span><span class="pill">Recharts</span><span class="pill">Leaflet</span>
+      <span class="pill">@huggingface/transformers</span><span class="pill">sentence-transformers</span>
+      <span class="pill">Groq API</span><span class="pill">Python pipeline</span>
+      <span class="pill">Pandas</span><span class="pill">scikit-learn</span><span class="pill">DBSCAN</span>
+    </div>
+  </div>
+
+  <p style="font-size:11px;color:#57606a;text-align:center;margin-top:4px">
+    Data: ICMC 2019–2022 · KAUN BBMP 2023–2026 · 243-ward GeoJSON · POC — verify before citing
+  </p>
+
+  <div class="footer">Made with <strong>IBM Bob</strong></div>
+</div>
+</body>
+</html>

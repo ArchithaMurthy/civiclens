@@ -1,0 +1,330 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>CivicLens — AI Solution Brief</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Segoe UI",system-ui,sans-serif;background:#f7f8fa;color:#1f2328;font-size:13px;line-height:1.6}
+.page{max-width:820px;margin:0 auto;padding:40px 32px 56px}
+
+/* header */
+.hero{margin-bottom:32px;border-left:4px solid #3b82d4;padding-left:20px}
+.hero-eyebrow{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3b82d4;margin-bottom:6px}
+.hero h1{font-size:26px;font-weight:800;letter-spacing:-0.5px;color:#1f2328;line-height:1.2}
+.hero-sub{font-size:13px;color:#57606a;margin-top:8px;line-height:1.6}
+.context-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.ctx{padding:3px 11px;border-radius:20px;font-size:10px;font-weight:600;letter-spacing:.04em}
+.ctx-blue{background:#dbeafe;color:#1d4ed8}
+.ctx-green{background:#dcfce7;color:#15803d}
+.ctx-purple{background:#ede9fe;color:#6d28d9}
+.ctx-amber{background:#fef3c7;color:#b45309}
+.ctx-red{background:#fee2e2;color:#b91c1c}
+
+/* section */
+.sec{margin-bottom:28px}
+.sec-h{font-size:16px;font-weight:700;color:#1f2328;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.sec-h::before{content:"";width:3px;height:18px;border-radius:2px;background:#3b82d4;flex-shrink:0}
+.sec-lead{font-size:12px;color:#57606a;margin-bottom:14px;padding-left:11px}
+
+/* cards */
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px 18px;margin-bottom:10px}
+.card-t{font-size:12px;font-weight:700;color:#1f2328;margin-bottom:4px}
+.card-b{font-size:11.5px;color:#374151;line-height:1.65}
+
+/* kpi grid */
+.kpi4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:28px}
+.kpi{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:14px 16px}
+.kv{font-size:22px;font-weight:800;line-height:1}
+.kv.red{color:#b91c1c}.kv.blue{color:#1d6fbf}.kv.green{color:#15803d}.kv.purple{color:#6d28d9}
+.kl{font-size:10px;color:#57606a;margin-top:4px;text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+
+/* grid 2 */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+
+/* table */
+.tbl{width:100%;border-collapse:collapse;font-size:11.5px;margin-bottom:0}
+.tbl th{background:#f1f5f9;text-align:left;padding:7px 12px;font-size:10px;font-weight:700;color:#57606a;text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid #e5e7eb}
+.tbl td{padding:8px 12px;border-bottom:1px solid #f1f5f9;color:#374151;vertical-align:top}
+.tbl tr:last-child td{border-bottom:none}
+.tbl-wrap{background:#fff;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;margin-bottom:12px}
+
+/* pill inline */
+.ip{display:inline-block;padding:1px 8px;border-radius:12px;font-size:10px;font-weight:600}
+.ip-r{background:#fee2e2;color:#b91c1c}
+.ip-a{background:#fef3c7;color:#b45309}
+.ip-g{background:#dcfce7;color:#15803d}
+
+/* callout */
+.callout{border-radius:10px;padding:14px 16px;margin-bottom:12px;font-size:12px;line-height:1.6}
+.callout-blue{background:#eff6ff;border-left:3px solid #3b82d4;color:#1e3a5f}
+.callout-green{background:#f0fdf4;border-left:3px solid #22c55e;color:#14532d}
+.callout-amber{background:#fffbeb;border-left:3px solid #f59e0b;color:#78350f}
+
+/* flow */
+.flow-line{display:flex;align-items:center;gap:0;margin:14px 0;overflow-x:auto}
+.fl-node{background:#fff;border:1.5px solid #bfdbfe;border-radius:8px;padding:7px 12px;font-size:11px;font-weight:600;color:#1d4ed8;white-space:nowrap;flex-shrink:0}
+.fl-arr{color:#94a3b8;font-size:16px;padding:0 6px;flex-shrink:0}
+.fl-node.green{border-color:#86efac;color:#15803d}
+.fl-node.purple{border-color:#c4b5fd;color:#6d28d9}
+.fl-node.amber{border-color:#fcd34d;color:#b45309}
+.fl-node.gray{border-color:#d1d5db;color:#374151}
+
+/* divider */
+.div{height:1px;background:#e5e7eb;margin:28px 0}
+
+.footer{text-align:center;font-size:11px;color:#57606a;border-top:1px solid #e5e7eb;padding-top:18px;margin-top:36px}
+</style>
+</head>
+<body>
+<div class="page">
+
+  
+  <div class="hero">
+    <div class="hero-eyebrow">IBM Bob Hackathon · 22 November 2026 · Precursor to WeAreDevelopers</div>
+    <h1>CivicLens</h1>
+    <div class="hero-sub">An AI-powered civic intelligence platform that transforms four years of Bengaluru road complaint data into prioritised, explainable action items — with a context-aware assistant that can answer questions about any ward in natural language, grounded in real data.</div>
+    <div class="context-row">
+      <span class="ctx ctx-blue">Track: AI Agent / Multiagent Workflow</span>
+      <span class="ctx ctx-green">Problem: Bengaluru Urban Infrastructure</span>
+      <span class="ctx ctx-purple">Built With: IBM Bob</span>
+      <span class="ctx ctx-amber">Data: ICMC 2019–2022 · KAUN 2023–2026</span>
+      <span class="ctx ctx-red">Status: Working POC</span>
+    </div>
+  </div>
+
+  
+  <div class="kpi4">
+    <div class="kpi"><div class="kv">5,072</div><div class="kl">Raw Complaints Ingested</div></div>
+    <div class="kpi"><div class="kv blue">298</div><div class="kl">Civic Cases Extracted</div></div>
+    <div class="kpi"><div class="kv red">48</div><div class="kl">HIGH Priority Cases</div></div>
+    <div class="kpi"><div class="kv purple">384</div><div class="kl">Embedding Dimensions</div></div>
+  </div>
+
+  
+  <div class="sec">
+    <div class="sec-h">The Problem</div>
+    <div class="sec-lead">What is broken about how Bengaluru handles civic complaints today</div>
+
+    <div class="card">
+      <div class="card-t">Civic complaints are invisible individually, catastrophic collectively</div>
+      <div class="card-b">The I Change My City (ICMC) platform receives thousands of road-related complaints from Bengaluru citizens every year — potholes, flooding, road resurfacing, broken footpaths. Each complaint is a data point. But no one is connecting the dots: a ward that generates 40 pothole complaints over four years with a 60% unresolved rate is structurally different from a ward that gets 5 complaints once. The current system treats every ticket the same.</div>
+    </div>
+
+    <div class="g2">
+      <div class="card">
+        <div class="card-t">No prioritisation signal</div>
+        <div class="card-b">BBMP ward officials have no ranked view of which infrastructure problems are chronic vs one-off, which are getting worse, and which have been ignored the longest. Decisions are reactive, not data-driven.</div>
+      </div>
+      <div class="card">
+        <div class="card-t">No explainability</div>
+        <div class="card-b">Even if a priority score existed, ward officials and journalists need to understand <em>why</em> — what drove the score, what the evidence is, what a reasonable next step would be. A number without context is not actionable.</div>
+      </div>
+      <div class="card">
+        <div class="card-t">Data is siloed</div>
+        <div class="card-b">Complaint data (ICMC), work order spend (KAUN BBMP), and geographic ward boundaries exist in separate datasets with no common key. No one has joined them into a unified view.</div>
+      </div>
+      <div class="card">
+        <div class="card-t">The accessibility gap</div>
+        <div class="card-b">Even when data is available, only someone with SQL or Python skills can query it. Ward officials, journalists, and RWA members cannot ask "what is the worst pothole ward in South Bengaluru?" and get a real answer.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="div"></div>
+
+  
+  <div class="sec">
+    <div class="sec-h">The Solution: CivicLens</div>
+    <div class="sec-lead">A three-layer AI system: data pipeline → interactive explorer → conversational analyst</div>
+
+    <div class="callout callout-blue">
+      <strong>Core insight:</strong> Bengaluru's civic problem is not a data shortage — it is a signal extraction and accessibility problem. CivicLens converts raw complaint noise into structured, ranked, explainable civic cases, then makes them queryable in plain English using RAG-grounded LLM reasoning.
+    </div>
+
+    <div class="card">
+      <div class="card-t">Layer 1 — Data Pipeline (Python)</div>
+      <div class="card-b">
+        A fully automated Python pipeline ingests three data sources — 5,072 ICMC road complaints (2019–2022), KAUN BBMP work orders (2023–2026), and 243-ward GeoJSON boundaries — and produces 298 structured civic "cases." Each case is a cluster of related complaints: same ward, same problem category, recurring over time.<br /><br />
+        <strong>Clustering:</strong> Two strategies run in parallel. <em>geo_dbscan</em> groups complaints by GPS proximity (spatial clusters). <em>ward_temporal</em> groups by ward × complaint category × year (temporal patterns). Both are merged and deduplicated.<br /><br />
+        <strong>Ward enrichment:</strong> 206 wards matched exactly by name, 66 matched by fuzzy string similarity, 26 matched by GPS centroid proximity. Every case knows which ward it belongs to.<br /><br />
+        <strong>Priority scoring:</strong> Each case receives a 0–1 score from five weighted factors: complaint volume (30%), unresolved rate (25%), recurrence in years (20%), geographic spread (15%), re-open rate (10%). HIGH ≥ 0.5, MEDIUM 0.3–0.5, LOW &lt; 0.3.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-t">Layer 2 — CivicLens UI (React + Vite)</div>
+      <div class="card-b">
+        A single-page application with three views:<br /><br />
+        <strong>City Overview:</strong> KPI cards (298 cases, 48 HIGH, 194 MEDIUM, 56 LOW, 3,895 complaints, 86 wards affected). Line chart showing complaint activity year-on-year 2019–2022. Subcategory bar chart (57% pothole repairs, 34% road resurfacing). Top 15 worst wards by case count.<br /><br />
+        <strong>Ward Explorer:</strong> Leaflet.js interactive map of Bengaluru with proportional circle markers (size = complaint count, colour = priority tier). Filter by ward and priority. Click any marker → case preview in side panel. Click "Ask AI" → jumps to AI Chat with that case pre-loaded.<br /><br />
+        <strong>Case Registry:</strong> Searchable, sortable table of all 298 cases with inline tier badges, complaint counts, unresolved rates, and direct links to full case detail pages.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-t">Layer 3 — AI Chat Assistant (RAG + LLM)</div>
+      <div class="card-b">
+        The AI assistant operates in two modes, automatically selected based on context:<br /><br />
+        <strong>Case mode (case selected):</strong> The full CaseFull record — priority factors, evidence items, work orders, hypotheses, rationale — is injected directly into the system prompt. The LLM can explain exactly why a case scored HIGH, what the evidence shows, and what a ward official should do next. No retrieval needed; the data is already there.<br /><br />
+        <strong>City mode (no case selected):</strong> Uses Retrieval-Augmented Generation (RAG). The user's question is embedded in-browser using <code>all-MiniLM-L6-v2</code> running as a WASM module via <code>@huggingface/transformers</code>. The resulting 384-dim vector is compared via cosine similarity against 298 pre-computed case embeddings (built offline, served as a static JSON file). The top-5 most semantically relevant cases are fetched and injected into the system prompt. The LLM — Qwen 27B via Groq API — then answers with real ward names, real scores, and real complaint counts. No hallucination.<br /><br />
+        <strong>Widget generation:</strong> When the question is comparative ("which wards are worst?", "show me the tier breakdown"), the LLM can optionally emit a structured JSON chart spec that the UI renders inline as a bar, pie, or stat widget — no external charting library needed.
+      </div>
+    </div>
+  </div>
+
+  <div class="div"></div>
+
+  
+  <div class="sec">
+    <div class="sec-h">AI Architecture — How the Intelligence Works</div>
+    <div class="sec-lead">The specific AI design decisions and why they were made</div>
+
+    <div class="flow-line">
+      <span class="fl-node green">ICMC + KAUN + GeoJSON</span>
+      <span class="fl-arr">→</span>
+      <span class="fl-node">Python Pipeline</span>
+      <span class="fl-arr">→</span>
+      <span class="fl-node">298 Scored Cases</span>
+      <span class="fl-arr">→</span>
+      <span class="fl-node purple">Embeddings (build-time)</span>
+      <span class="fl-arr">→</span>
+      <span class="fl-node amber">RAG (runtime)</span>
+      <span class="fl-arr">→</span>
+      <span class="fl-node amber">Qwen 27B</span>
+    </div>
+
+    <div class="tbl-wrap">
+      <table class="tbl">
+        <thead><tr><th>Decision</th><th>What was chosen</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Embedding model</strong></td><td>all-MiniLM-L6-v2 (384-dim)</td><td>Runs in-browser via WASM — zero server infrastructure. Pre-compute once at build time; cosine search is instant at query time. Identical model for build and runtime ensures vector space consistency.</td></tr>
+          <tr><td><strong>Vector storage</strong></td><td>Static JSON file (2.3 MB)</td><td>298 cases × 384 dims fits in a single served file. No vector DB (Pinecone, pgvector) needed. Loads once, cached in memory, O(n) cosine search is fast enough for 298 vectors.</td></tr>
+          <tr><td><strong>LLM</strong></td><td>Qwen 27B via Groq</td><td>Tested against available models on the account. Qwen 27B follows system prompt instructions cleanly, produces structured markdown, and optionally emits widget JSON. Reasoning models (gpt-oss) leaked chain-of-thought into responses — rejected.</td></tr>
+          <tr><td><strong>Context strategy</strong></td><td>Structured case injection, not full-text retrieval</td><td>CaseFull records are already structured (factors, evidence, rationale, work orders). Injecting them directly is more reliable than embedding case descriptions and doing fuzzy retrieval. RAG is used for routing/discovery; structured injection is used for depth.</td></tr>
+          <tr><td><strong>Widget rendering</strong></td><td>LLM-emitted JSON → custom inline renderer</td><td>The LLM decides when a chart helps (comparative/quantitative queries). Emits a typed JSON spec; UI renders it as bar/pie/stat widget. No external charting library in the chat panel — pure CSS + SVG.</td></tr>
+          <tr><td><strong>Scoring formula</strong></td><td>Weighted linear combination of 5 signals</td><td>Interpretable, auditable, and tunable. Each factor maps to a real civic concept (volume, neglect, chronicity, spread, fix quality). No black-box ML — every score can be explained in plain English.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="div"></div>
+
+  
+  <div class="sec">
+    <div class="sec-h">What IBM Bob Contributed</div>
+    <div class="sec-lead">The AI SDLC partner's role in building CivicLens end-to-end</div>
+
+    <div class="callout callout-green">
+      <strong>This project was built with IBM Bob</strong> — the AI-powered software development lifecycle partner. Bob was the primary development environment for the entire build: architecture decisions, code generation, debugging, refactoring, and iterative improvement all happened through Bob's agent and plan modes.
+    </div>
+
+    <div class="g2">
+      <div class="card">
+        <div class="card-t">Architecture &amp; Design</div>
+        <div class="card-b">Bob helped design the two-tier data model (CaseRow for the index, CaseFull for detail), the RAG vs direct-injection strategy, the scoring formula, and the component hierarchy — iterating rapidly through tradeoffs in conversation.</div>
+      </div>
+      <div class="card">
+        <div class="card-t">Full-Stack Code Generation</div>
+        <div class="card-b">React components (Ward Explorer, AI Chat panel, Overview dashboard), TypeScript types, the RAG module, the embedding build script, Tailwind layouts, Recharts visualisations — all written by Bob from natural language specs.</div>
+      </div>
+      <div class="card">
+        <div class="card-t">Debugging &amp; Root Cause Analysis</div>
+        <div class="card-b">When the AI chat was broken (reasoning model leaking chain-of-thought, wrong model name 404, stale dev server on old port), Bob diagnosed root causes and fixed them — including testing the Groq API directly from the terminal to verify the issue.</div>
+      </div>
+      <div class="card">
+        <div class="card-t">Iterative Refinement</div>
+        <div class="card-b">Every UI improvement — markdown rendering, widget charts, the dot plot → line chart replacement, chart overflow fixes, the data flow artifact — was implemented through conversational iteration with Bob, without ever leaving the IDE.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="div"></div>
+
+  
+  <div class="sec">
+    <div class="sec-h">Impact &amp; Use Cases</div>
+    <div class="sec-lead">Who benefits and how</div>
+
+    <div class="tbl-wrap">
+      <table class="tbl">
+        <thead><tr><th>Persona</th><th>What they can do with CivicLens</th><th>Before CivicLens</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>BBMP Ward Official</strong></td>
+            <td>Open the Ward Explorer, filter to their ward, see which infrastructure problems are HIGH priority with full evidence. Ask AI "what should I do about the Horamavu pothole case?" — get a data-grounded recommendation.</td>
+            <td>Reviewing individual complaint tickets with no aggregated view. No way to know if a problem is chronic or new.</td>
+          </tr>
+          <tr>
+            <td><strong>Journalist / Researcher</strong></td>
+            <td>Ask "which wards have the worst unresolved rates?" → get a bar chart from real data with ward names and percentages. Click through to cases for story evidence. All citable, all traceable to source data.</td>
+            <td>Filing RTI requests or scraping portals manually. Months of work to find what CivicLens surfaces in seconds.</td>
+          </tr>
+          <tr>
+            <td><strong>RWA / Citizen Group</strong></td>
+            <td>Search for their area, see all recurring cases, understand why they're ranked the way they are. Use the AI to draft a data-backed complaint letter to BBMP with specific case IDs and evidence.</td>
+            <td>No way to know if their complaint was part of a larger pattern or unique. Powerless without data.</td>
+          </tr>
+          <tr>
+            <td><strong>Policy Analyst</strong></td>
+            <td>Use the Overview dashboard to spot year-on-year trends. Cross-reference with KAUN work order spend to ask whether money is flowing to high-priority areas.</td>
+            <td>Joining three separate datasets manually in Excel. Static reports with no ability to drill down.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="div"></div>
+
+  
+  <div class="sec">
+    <div class="sec-h">Technical Summary</div>
+    <div class="sec-lead">Full stack overview</div>
+    <div class="g2">
+      <div class="card">
+        <div class="card-t">Data Pipeline</div>
+        <div class="card-b">Python · Pandas · scikit-learn · DBSCAN · Fuzzy string matching · GeoPandas · JSON output</div>
+      </div>
+      <div class="card">
+        <div class="card-t">Frontend</div>
+        <div class="card-b">React 18 · TypeScript · Vite · Tailwind CSS v4 · React Router · Recharts · Leaflet.js</div>
+      </div>
+      <div class="card">
+        <div class="card-t">AI / ML</div>
+        <div class="card-b">@huggingface/transformers (WASM) · all-MiniLM-L6-v2 · Cosine similarity RAG · Qwen 27B · Groq API</div>
+      </div>
+      <div class="card">
+        <div class="card-t">Infrastructure</div>
+        <div class="card-b">100% static — no backend server, no database, no auth. Served as a Vite SPA. All AI calls go directly from the browser to the Groq API.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="div"></div>
+
+  
+  <div class="sec">
+    <div class="sec-h">What's Next</div>
+    <div class="sec-lead">If this were taken beyond the hackathon POC</div>
+    <div class="card">
+      <div class="card-b">
+        <strong>Live data feed:</strong> Connect to ICMC's live API so cases update automatically rather than being a 2022 snapshot.<br /><br />
+        <strong>Multilingual AI:</strong> The ward official audience in Bengaluru is Kannada-first. The AI assistant should respond in Kannada when asked.<br /><br />
+        <strong>Work order correlation:</strong> The temporal gap between ICMC complaints (2019–2022) and KAUN work orders (2023–2026) is currently flagged but not bridged. With better data, you could ask "did the ₹2.4Cr road work in Bellandur actually fix the pothole problem?"<br /><br />
+        <strong>Multi-city generalisation:</strong> The pipeline is city-agnostic. The same system could run on Chennai, Hyderabad, or Mumbai complaint data with minor config changes.<br /><br />
+        <strong>Offline mobile app:</strong> The RAG retrieval is fully client-side — it already works offline after first load. A PWA wrapper would make CivicLens usable by ward officials in areas with patchy connectivity.
+      </div>
+    </div>
+  </div>
+
+  <p style="font-size:11px;color:#57606a;text-align:center;margin-top:4px">
+    Built at IBM Bob Hackathon · 22 November 2026 · Bengaluru · POC — data sourced from public platforms, verify before citing
+  </p>
+
+  <div class="footer">Made with <strong>IBM Bob</strong></div>
+</div>
+</body>
+</html>
